@@ -86,15 +86,25 @@ def build_dataset(input_file, output_file, threshold=0.15):
             "top_clubs": [{"club": c, "count": cnt} for c, cnt in top_clubs]
         })
 
+    # Aggreger klubbtotaler for hele datasettet
+    club_totals = {}
+    for nation, clubs in data.items():
+        for club, count in clubs.items():
+            if club not in ["Unattached", "Free agent"]:
+                club_totals[club] = club_totals.get(club, 0) + count
+                
+    sorted_clubs = [{"club": c, "count": cnt} for c, cnt in sorted(club_totals.items(), key=lambda x: x[1], reverse=True)]
+
     output_data = {
         "nodes": nodes,
-        "edges": all_edges
+        "edges": all_edges,
+        "club_totals": sorted_clubs
     }
     
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     with open(output_file, "w") as f:
         json.dump(output_data, f, indent=2)
-    print(f"Bygget {output_file} med {len(nodes)} noder og {len(all_edges)} totale kanter.")
+    print(f"Bygget {output_file} med {len(nodes)} noder, {len(all_edges)} kanter og {len(sorted_clubs)} klubber.")
 
 if __name__ == "__main__":
     build_dataset("data_2022.json", "public/graph_2022.json")

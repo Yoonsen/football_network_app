@@ -168,6 +168,75 @@ input[type=range] {
     background: radial-gradient(circle at center, #1a1a2e 0%, #0a0a0a 100%);
 }
 
+/* Tabs */
+.tabs-header {
+    display: flex;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.tab-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.tab-btn.active {
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-title {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.tab-desc {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+}
+
+/* Lists in Tabs */
+.cluster-block {
+    margin-bottom: 16px;
+    background: rgba(255,255,255,0.03);
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 4px solid var(--accent);
+}
+
+.cluster-block strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #fff;
+}
+
+.cluster-block p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+#club-list-container .club-item {
+    font-size: 13px;
+    padding: 6px 0;
+}
+
 #mynetwork {
     width: 100%;
     height: 100%;

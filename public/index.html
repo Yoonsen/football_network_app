@@ -33,15 +33,35 @@
                     <button id="btn-2022">VM 2022</button>
                 </div>
             </div>
-
-            <div class="control-group">
-                <label for="threshold-slider">Cosinus-likhet terskel: <span id="threshold-val">0.15</span></label>
-                <input type="range" id="threshold-slider" min="0" max="0.5" step="0.01" value="0.15">
+            
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="tab-network">Graf</button>
+                <button class="tab-btn" data-tab="tab-clusters">Klynger</button>
+                <button class="tab-btn" data-tab="tab-clubs">Klubber</button>
             </div>
 
-            <div id="details-panel" class="hidden">
-                <h2 id="detail-title">Land</h2>
-                <div id="detail-content"></div>
+            <div id="tab-network" class="tab-content active">
+                <div class="control-group">
+                    <label for="threshold-slider">Cosinus-likhet terskel: <span id="threshold-val">0.15</span></label>
+                    <input type="range" id="threshold-slider" min="0" max="0.5" step="0.01" value="0.15">
+                </div>
+
+                <div id="details-panel" class="hidden">
+                    <h2 id="detail-title">Land</h2>
+                    <div id="detail-content"></div>
+                </div>
+            </div>
+            
+            <div id="tab-clusters" class="tab-content hidden">
+                <h3 class="tab-title">Oversikt over klynger</h3>
+                <p class="tab-desc">Landene fordelt på sine klynger (for kopiering).</p>
+                <div id="cluster-list-container"></div>
+            </div>
+            
+            <div id="tab-clubs" class="tab-content hidden">
+                <h3 class="tab-title">Klubbene som leverer</h3>
+                <p class="tab-desc">Hvilke klubber som dominerer i grafen.</p>
+                <div id="club-list-container"></div>
             </div>
         </aside>
 

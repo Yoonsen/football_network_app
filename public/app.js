@@ -50,6 +50,16 @@ function setupListeners() {
     domElements.slider.addEventListener('change', () => {
         updateGraphFromThreshold();
     });
+
+    // Tab switching
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById(btn.dataset.tab).classList.add('active');
+        });
+    });
 }
 
 async function loadDataset(filename) {
@@ -62,13 +72,45 @@ async function loadDataset(filename) {
     }
 }
 
+function renderLists(visNodes) {
+    // Render Clusters
+    const clusterContainer = document.getElementById('cluster-list-container');
+    const clusters = {};
+    visNodes.forEach(n => {
+        if (!n.isSingleton) {
+            if (!clusters[n.group]) clusters[n.group] = [];
+            clusters[n.group].push(n.label);
+        }
+    });
+    
+    let clusterHtml = '';
+    Object.keys(clusters).forEach(groupId => {
+        clusterHtml += `<div class="cluster-block" style="border-left-color: ${colors[groupId % colors.length]}">
+            <strong>Klynge ${parseInt(groupId) + 1}</strong>
+            <p>${clusters[groupId].join(', ')}</p>
+        </div>`;
+    });
+    clusterContainer.innerHTML = clusterHtml || '<p style="color:gray; font-size:13px">Ingen klynger ved denne terskelen.</p>';
+
+    // Render Clubs
+    const clubContainer = document.getElementById('club-list-container');
+    let clubHtml = '';
+    if (rawData.club_totals) {
+        rawData.club_totals.slice(0, 50).forEach(c => {
+            clubHtml += `<div class="club-item">
+                <span>${c.club}</span>
+                <span class="club-count">${c.count}</span>
+            </div>`;
+        });
+    }
+    clubContainer.innerHTML = clubHtml;
+}
+
 function updateGraphFromThreshold() {
     const threshold = parseFloat(domElements.slider.value);
     
-    // Filter edges based on threshold
-    const filteredEdges = rawData.edges.filter(e => e.weight >= threshold);
-    
     // Finn hvilke noder som er tilkoblet
+    const filteredEdges = rawData.edges.filter(e => e.weight >= threshold);
     const connectedNodes = new Set();
     filteredEdges.forEach(e => {
         connectedNodes.add(e.from);
@@ -130,6 +172,8 @@ function updateGraphFromThreshold() {
     nodesDataSet.add(visNodes);
     edgesDataSet.add(visEdges);
 
+    renderLists(visNodes);
+
     if (!network) {
         drawNetwork();
     }
@@ -145,7 +189,9 @@ function drawNetwork() {
             hover: true,
             hoverConnectedEdges: false,
             selectConnectedEdges: false,
-            tooltipDelay: 100
+            tooltipDelay: 100,
+            dragView: false,  // Skrur av panorering
+            zoomView: false   // Skrur av zoom
         },
         physics: {
             forceAtlas2Based: {
@@ -158,7 +204,8 @@ function drawNetwork() {
             minVelocity: 0.75,
             solver: "forceAtlas2Based",
             stabilization: {
-                iterations: 150
+                iterations: 150,
+                fit: true
             }
         },
         nodes: {
