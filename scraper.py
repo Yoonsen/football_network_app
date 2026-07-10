@@ -5,43 +5,54 @@ import io
 import time
 
 teams = {
-    "Norway": "Norway_national_football_team",
-    "Austria": "Austria_national_football_team",
-    "Italy": "Italy_national_football_team",
-    "Sweden": "Sweden_national_football_team",
-    "Colombia": "Colombia_national_football_team",
-    "Chile": "Chile_national_football_team",
-    "Nigeria": "Nigeria_national_football_team",
-    "Qatar": "Qatar_national_football_team",
-    "Ecuador": "Ecuador_national_football_team",
-    "Senegal": "Senegal_national_football_team",
-    "Netherlands": "Netherlands_national_football_team",
-    "England": "England_national_football_team",
-    "Iran": "Iran_national_football_team",
-    "USA": "United_States_men%27s_national_soccer_team",
-    "Wales": "Wales_national_football_team",
+    "Algeria": "Algeria_national_football_team",
     "Argentina": "Argentina_national_football_team",
-    "Saudi Arabia": "Saudi_Arabia_national_football_team",
-    "Mexico": "Mexico_national_football_team",
-    "France": "France_national_football_team",
     "Australia": "Australia_men%27s_national_soccer_team",
-    "Denmark": "Denmark_national_football_team",
-    "Tunisia": "Tunisia_national_football_team",
-    "Spain": "Spain_national_football_team",
-    "Costa Rica": "Costa_Rica_national_football_team",
-    "Germany": "Germany_national_football_team",
-    "Japan": "Japan_national_football_team",
+    "Austria": "Austria_national_football_team",
     "Belgium": "Belgium_national_football_team",
-    "Morocco": "Morocco_national_football_team",
-    "Croatia": "Croatia_national_football_team",
+    "Bosnia and Herzegovina": "Bosnia_and_Herzegovina_national_football_team",
     "Brazil": "Brazil_national_football_team",
-    "Serbia": "Serbia_national_football_team",
-    "Switzerland": "Switzerland_national_football_team",
-    "Cameroon": "Cameroon_national_football_team",
-    "Portugal": "Portugal_national_football_team",
+    "Canada": "Canada_men%27s_national_soccer_team",
+    "Cape Verde": "Cape_Verde_national_football_team",
+    "Colombia": "Colombia_national_football_team",
+    "Croatia": "Croatia_national_football_team",
+    "Cura\u00e7ao": "Cura\u00e7ao_national_football_team",
+    "Czech Republic": "Czech_Republic_national_football_team",
+    "DR Congo": "DR_Congo_national_football_team",
+    "Ecuador": "Ecuador_national_football_team",
+    "Egypt": "Egypt_national_football_team",
+    "England": "England_national_football_team",
+    "France": "France_national_football_team",
+    "Germany": "Germany_national_football_team",
     "Ghana": "Ghana_national_football_team",
-    "Uruguay": "Uruguay_national_football_team",
+    "Haiti": "Haiti_national_football_team",
+    "Iran": "Iran_national_football_team",
+    "Iraq": "Iraq_national_football_team",
+    "Ivory Coast": "Ivory_Coast_national_football_team",
+    "Japan": "Japan_national_football_team",
+    "Jordan": "Jordan_national_football_team",
+    "Mexico": "Mexico_national_football_team",
+    "Morocco": "Morocco_national_football_team",
+    "Netherlands": "Netherlands_national_football_team",
+    "New Zealand": "New_Zealand_men%27s_national_football_team",
+    "Norway": "Norway_national_football_team",
+    "Panama": "Panama_national_football_team",
+    "Paraguay": "Paraguay_national_football_team",
+    "Portugal": "Portugal_national_football_team",
+    "Qatar": "Qatar_national_football_team",
+    "Saudi Arabia": "Saudi_Arabia_national_football_team",
+    "Scotland": "Scotland_national_football_team",
+    "Senegal": "Senegal_national_football_team",
+    "South Africa": "South_Africa_national_football_team",
     "South Korea": "South_Korea_national_football_team",
+    "Spain": "Spain_national_football_team",
+    "Sweden": "Sweden_national_football_team",
+    "Switzerland": "Switzerland_national_football_team",
+    "Tunisia": "Tunisia_national_football_team",
+    "Turkey": "Turkey_national_football_team",
+    "United States": "United_States_men%27s_national_soccer_team",
+    "Uruguay": "Uruguay_national_football_team",
+    "Uzbekistan": "Uzbekistan_national_football_team"
 }
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)'}
@@ -84,7 +95,7 @@ for nation, url_end in teams.items():
     # Unngå å spamme Wikipedia
     time.sleep(0.5)
 
-print("\nFerdig! Lagrer data.json...")
-with open('data.json', 'w') as f:
+print("\nFerdig! Lagrer data_2026.json...")
+with open('data_2026.json', 'w') as f:
     json.dump(network_data, f, indent=4)
-print("data.json lagret vellykket.")
+print("data_2026.json lagret vellykket.")
