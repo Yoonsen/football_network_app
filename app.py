@@ -217,29 +217,29 @@ with tab1:
         edge_y.extend([y0, y1, None])
         edge_weights.append(edge[2]['weight'])
         
-        # Midpoint for hover
-        edge_hover_x.append((x0 + x1) / 2)
-        edge_hover_y.append((y0 + y1) / 2)
-        
-        # Finn felles klubber
+        # Legger til usynlige treffpunkter langs hele kanten (25%, 50%, 75%) for mye enklere hover
         shared = set(data[n1].keys()).intersection(set(data[n2].keys()))
         shared_details = []
         for c in shared:
             shared_details.append(f"{c} ({data[n1][c]} + {data[n2][c]})")
-            
         shared_str = "<br>".join(shared_details) if shared_details else "Ingen (svak kosinus-likhet)"
-        edge_hover_text.append(f"<b>{n1} & {n2}</b><br>Felles klubber:<br>{shared_str}")
+        hover_string = f"<b>{n1} & {n2}</b><br>Felles klubber:<br>{shared_str}"
+        
+        for fraction in [0.25, 0.5, 0.75]:
+            edge_hover_x.append(x0 + (x1 - x0) * fraction)
+            edge_hover_y.append(y0 + (y1 - y0) * fraction)
+            edge_hover_text.append(hover_string)
 
     edge_trace = go.Scatter(
         x=edge_x, y=edge_y,
-        line=dict(width=3.5, color='rgba(136, 136, 136, 0.6)'), # Tykkere linje med alpha=0.6 for lesbarhet
+        line=dict(width=3.5, color='rgba(136, 136, 136, 0.3)'), # Senket alpha til 0.3 for enda bedre lesbarhet
         hoverinfo='none',
         mode='lines')
 
     edge_hover_trace = go.Scatter(
         x=edge_hover_x, y=edge_hover_y,
         mode='markers',
-        marker=dict(size=30, color='rgba(0,0,0,0)'), # Større usynlig treffpunkt for enklere hover
+        marker=dict(size=25, color='rgba(0,0,0,0)'),
         hovertext=edge_hover_text,
         hoverinfo='text'
     )
