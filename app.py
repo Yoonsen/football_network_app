@@ -181,6 +181,13 @@ with tab1:
         hoverinfo='text'
     )
 
+    # Finn valgt klynge (hvis brukeren har klikket på en node)
+    selected_curve = None
+    if "network_graph" in st.session_state and "selection" in st.session_state.network_graph:
+        points = st.session_state.network_graph["selection"].get("points", [])
+        if points:
+            selected_curve = points[0].get("curveNumber")
+
     node_traces = []
     # Sorterer klyngene etter det landet i klyngen som har flest koblinger (samme logikk som listen under grafen)
     sorted_communities_for_plot = sorted(communities, key=lambda comm: max([G.degree(n) for n in comm]), reverse=True)
@@ -203,6 +210,13 @@ with tab1:
             
         color = colors[i % len(colors)]
         
+        # Sjekk om en klynge er klikket på. Trace 0 er kanter, trace 1 er hover-kanter, så node_traces starter på 2.
+        trace_index = i + 2
+        opacity = 1.0
+        if selected_curve is not None and selected_curve >= 2:
+            if trace_index != selected_curve:
+                opacity = 0.1  # Ton ned andre klynger
+        
         trace = go.Scatter(
             x=comm_x, y=comm_y,
             mode='markers+text',
@@ -212,7 +226,7 @@ with tab1:
             hoverinfo='text',
             name=f"Klynge {i+1}",
             legendgroup=f"Klynge {i+1}",
-            marker=dict(size=20, color=color, line=dict(width=1, color='white'))
+            marker=dict(size=20, color=color, opacity=opacity, line=dict(width=1, color='white'))
         )
         node_traces.append(trace)
 
@@ -226,7 +240,7 @@ with tab1:
                 xaxis=dict(showgrid=False, zeroline=False, showticklabels=False, fixedrange=True),
                 yaxis=dict(showgrid=False, zeroline=False, showticklabels=False, fixedrange=True))
                 )
-    st.plotly_chart(fig, width='stretch', config={'scrollZoom': False, 'displayModeBar': False})
+    st.plotly_chart(fig, width='stretch', config={'scrollZoom': False, 'displayModeBar': False}, on_select="rerun", selection_mode="points", key="network_graph")
     
     st.markdown("#### Klynger (Communities)")
     st.write("Her er landene delt inn i sine respektive klynger. Klyngene og landene er sortert etter 'ren sentralitet' (Degree Centrality – altså antall direkte koblinger til andre land i nettverket):")
