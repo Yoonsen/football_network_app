@@ -71,19 +71,27 @@ for nation, url_end in teams.items():
         found = False
         for df in tables:
             # Sjekk etter kolonner som typisk indikerer en tropp
-            if 'Club' in df.columns and 'Player' in df.columns:
-                clubs = df['Club'].value_counts().to_dict()
+            player_col = None
+            if 'Player' in df.columns:
+                player_col = 'Player'
+            elif 'Name' in df.columns:
+                player_col = 'Name'
+                
+            if player_col and 'Club' in df.columns:
+                df = df.dropna(subset=[player_col, 'Club'])
+                
+                # Hvis Caps finnes, bruk det for å finne de 14 beste
+                if 'Caps' in df.columns:
+                    df["CapsNum"] = pd.to_numeric(df["Caps"].astype(str).str.extract(r"(\d+)")[0], errors="coerce").fillna(0)
+                    top_players = df.sort_values(by="CapsNum", ascending=False).head(14)
+                else:
+                    # Fallback hvis Caps mangler (sjelden)
+                    top_players = df.head(14)
+                    
+                clubs = top_players['Club'].value_counts().to_dict()
                 network_data[nation] = clubs
                 found = True
-                print(f"  Fant {len(clubs)} unike klubber for {nation}")
-                break
-            
-            # Alternativ sjekk, noen ganger er kolonnenavnet annerledes
-            elif 'Club' in df.columns and 'Name' in df.columns:
-                clubs = df['Club'].value_counts().to_dict()
-                network_data[nation] = clubs
-                found = True
-                print(f"  Fant {len(clubs)} unike klubber for {nation} (brukte 'Name')")
+                print(f"  Fant {len(clubs)} unike klubber i topp 14 for {nation}")
                 break
                 
         if not found:
