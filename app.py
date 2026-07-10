@@ -246,7 +246,7 @@ with tab1:
 
     node_x = [pos[n][0] for n in G.nodes()]
     node_y = [pos[n][1] for n in G.nodes()]
-    node_text = list(G.nodes())
+    node_text = [f"<b>{n}</b>" for n in G.nodes()]
     
     hover_text = []
     for n in G.nodes():
