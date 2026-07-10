@@ -8,10 +8,21 @@ from itertools import combinations
 
 import json
 
-# --- DATA ---
-# Last inn dynamisk data generert av scraper.py (VM 2022 lag)
-with open("data.json", "r") as f:
-    data = json.load(f)
+st.set_page_config(page_title="Fotballens Makrostruktur", layout="wide")
+st.title("⚽️ Fotballens Makrostruktur: Nettverk og Entropi")
+
+dataset_choice = st.radio(
+    "Velg Datasett:", 
+    ["Nåværende tropper (Utvidet mot 2026)", "VM 2022 (Faktiske lag)"], 
+    horizontal=True
+)
+
+if "2026" in dataset_choice:
+    with open("data_2026.json", "r") as f:
+        data = json.load(f)
+else:
+    with open("data_2022.json", "r") as f:
+        data = json.load(f)
 
 # Hjelpefunksjon for å kartlegge klubb til liga
 def get_league(club):
@@ -44,9 +55,6 @@ def get_league(club):
     if club in eredivisie: return "Eredivisie"
     if club in primeira_liga: return "Primeira Liga"
     return "Resten av verden"
-
-st.set_page_config(page_title="Fotballens Makrostruktur", layout="wide")
-st.title("⚽️ Fotballens Makrostruktur: Nettverk og Entropi")
 
 tab1, tab2 = st.tabs(["Nettverksgraf (Cosinus-likhet)", "Entropi (Effektive Ligaer)"])
 
