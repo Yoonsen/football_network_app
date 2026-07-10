@@ -173,9 +173,14 @@ with tab1:
     
     hover_text = []
     for n in G.nodes():
-        top_clubs = sorted(data[n].items(), key=lambda x: x[1], reverse=True)[:4]
+        # Sorter på antall spillere (x[1]). Ved uavgjort: foretrekk ekte klubber over "Unattached" / "Free agent"
+        top_clubs = sorted(
+            data[n].items(), 
+            key=lambda x: (x[1], x[0] not in ["Unattached", "Free agent"]), 
+            reverse=True
+        )[:5]
         clubs_str = "<br>".join([f"{c}: {cnt}" for c, cnt in top_clubs])
-        hover_text.append(f"<b>{n}</b><br>Betweenness: {centrality[n]:.3f}<br><br><b>Toppklubber:</b><br>{clubs_str}")
+        hover_text.append(f"<b>{n}</b><br>Betweenness: {centrality[n]:.3f}<br><br><b>Topp 5 Klubber:</b><br>{clubs_str}")
 
     node_trace = go.Scatter(
         x=node_x, y=node_y,
