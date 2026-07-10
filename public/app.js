@@ -117,12 +117,18 @@ function updateGraphFromThreshold() {
         connectedNodes.add(e.to);
     });
 
-    let singletonX = -800; // Startposisjon for isolerte land
+    // Tell antall singletons for å sentrere dem horisontalt
+    let numSingletons = 0;
+    rawData.nodes.forEach(n => {
+        if (!connectedNodes.has(n.id)) numSingletons++;
+    });
+    
+    // Start X slik at rekken blir sentrert rundt 0
+    let singletonX = -(numSingletons * 80) / 2; 
 
     const visNodes = rawData.nodes.map(n => {
         const isSingleton = !connectedNodes.has(n.id);
         
-        // Singletons blir grå, tilkoblede noder får klyngefargen sin
         const color = isSingleton ? 'rgba(80, 80, 80, 0.8)' : colors[n.group % colors.length];
         const size = 15 + (n.betweenness * 50);
         
@@ -142,15 +148,15 @@ function updateGraphFromThreshold() {
             borderWidth: 1,
             shadow: true,
             originalColor: color,
-            isSingleton: isSingleton
+            isSingleton: isSingleton,
+            fixed: false
         };
 
-        // Fest isolerte land på en horisontal linje nederst i skjermbildet
         if (isSingleton) {
             nodeConfig.x = singletonX;
-            nodeConfig.y = 600; 
+            nodeConfig.y = 400; // Nærmere sentrum så de ikke havner utenfor skjermen
             nodeConfig.fixed = { x: true, y: true };
-            nodeConfig.size = 12; // Gjør dem litt mindre
+            nodeConfig.size = 12;
             singletonX += 80;
         }
 
@@ -176,6 +182,11 @@ function updateGraphFromThreshold() {
 
     if (!network) {
         drawNetwork();
+    } else {
+        // La fysikken stabilisere seg et øyeblikk, og tving deretter kameraet til å vise alle nodene
+        setTimeout(() => {
+            network.fit({ animation: { duration: 1000, easingFunction: 'easeInOutQuad' } });
+        }, 100);
     }
 }
 
