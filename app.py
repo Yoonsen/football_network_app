@@ -267,12 +267,13 @@ with tab1:
              layout=go.Layout(
                 showlegend=False,
                 hovermode='closest',
+                dragmode=False, # Slår av dra-for-å-zoome/panorere for mobilvennlig scrolling
                 height=750,  # Økt høyde for å gi grafen mer pusterom
                 margin=dict(b=20,l=20,r=20,t=20),
-                xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
+                xaxis=dict(showgrid=False, zeroline=False, showticklabels=False, fixedrange=True),
+                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False, fixedrange=True))
                 )
-    st.plotly_chart(fig, width='stretch')
+    st.plotly_chart(fig, width='stretch', config={'scrollZoom': False, 'displayModeBar': False})
     
     st.markdown("#### Klynger (Communities)")
     st.write("Her er landene delt inn i sine respektive klynger. Klyngene og landene er sortert etter 'ren sentralitet' (Degree Centrality – altså antall direkte koblinger til andre land i nettverket):")
