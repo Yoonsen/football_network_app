@@ -181,33 +181,44 @@ with tab1:
         hoverinfo='text'
     )
 
-    node_x = [pos[n][0] for n in G.nodes()]
-    node_y = [pos[n][1] for n in G.nodes()]
-    node_text = [f"<b>{n}</b>" for n in G.nodes()]
+    node_traces = []
+    # Sorterer klyngene etter det landet i klyngen som har flest koblinger (samme logikk som listen under grafen)
+    sorted_communities_for_plot = sorted(communities, key=lambda comm: max([G.degree(n) for n in comm]), reverse=True)
     
-    hover_text = []
-    for n in G.nodes():
-        # Sorter på antall spillere (x[1]). Ved uavgjort: foretrekk ekte klubber over "Unattached" / "Free agent"
-        top_clubs = sorted(
-            data[n].items(), 
-            key=lambda x: (x[1], x[0] not in ["Unattached", "Free agent"]), 
-            reverse=True
-        )[:5]
-        clubs_str = "<br>".join([f"{c}: {cnt}" for c, cnt in top_clubs])
-        hover_text.append(f"<b>{n}</b><br>Betweenness: {centrality[n]:.3f}<br><br><b>Topp 5 Klubber:</b><br>{clubs_str}")
+    for i, comm in enumerate(sorted_communities_for_plot):
+        comm_nodes = list(comm)
+        comm_x = [pos[n][0] for n in comm_nodes]
+        comm_y = [pos[n][1] for n in comm_nodes]
+        comm_text = [f"<b>{n}</b>" for n in comm_nodes]
+        
+        comm_hover = []
+        for n in comm_nodes:
+            top_clubs = sorted(
+                data[n].items(), 
+                key=lambda x: (x[1], x[0] not in ["Unattached", "Free agent"]), 
+                reverse=True
+            )[:5]
+            clubs_str = "<br>".join([f"{c}: {cnt}" for c, cnt in top_clubs])
+            comm_hover.append(f"<b>{n}</b><br>Betweenness: {centrality[n]:.3f}<br><br><b>Topp 5 Klubber:</b><br>{clubs_str}")
+            
+        color = colors[i % len(colors)]
+        
+        trace = go.Scatter(
+            x=comm_x, y=comm_y,
+            mode='markers+text',
+            text=comm_text,
+            textposition="bottom center",
+            hovertext=comm_hover,
+            hoverinfo='text',
+            name=f"Klynge {i+1}",
+            legendgroup=f"Klynge {i+1}",
+            marker=dict(size=20, color=color, line=dict(width=1, color='white'))
+        )
+        node_traces.append(trace)
 
-    node_trace = go.Scatter(
-        x=node_x, y=node_y,
-        mode='markers+text',
-        text=node_text,
-        textposition="bottom center",
-        hovertext=hover_text,
-        hoverinfo='text',
-        marker=dict(size=20, color=node_colors, line=dict(width=1, color='white')))
-
-    fig = go.Figure(data=[edge_trace, edge_hover_trace, node_trace],
+    fig = go.Figure(data=[edge_trace, edge_hover_trace] + node_traces,
              layout=go.Layout(
-                showlegend=False,
+                showlegend=True,
                 hovermode='closest',
                 dragmode=False, # Slår av dra-for-å-zoome/panorere for mobilvennlig scrolling
                 height=750,  # Økt høyde for å gi grafen mer pusterom
