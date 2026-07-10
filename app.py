@@ -56,7 +56,7 @@ def get_league(club):
     if club in primeira_liga: return "Primeira Liga"
     return "Resten av verden"
 
-tab1, tab2 = st.tabs(["Nettverksgraf (Cosinus-likhet)", "Entropi (Effektive Ligaer)"])
+tab1, tab2, tab3 = st.tabs(["Nettverksgraf (Cosinus-likhet)", "Entropi (Effektive Ligaer)", "Klubbrepresentasjon"])
 
 # --- TAB 1: NETTVERKSGRAF ---
 with tab1:
@@ -282,3 +282,40 @@ with tab2:
         st.bar_chart(df.set_index("Liga"))
     else:
         st.warning("Velg minst én nasjon for å beregne entropi.")
+
+# --- TAB 3: KLUBBREPRESENTASJON ---
+with tab3:
+    st.markdown("### Klubber med flest spillere i mesterskapet")
+    st.write("Dette viser hvilke klubber som har flest representanter på tvers av alle landslagene i valgt datasett.")
+    
+    # Aggreger alle klubber
+    club_totals = {}
+    for nation, clubs in data.items():
+        for club, count in clubs.items():
+            if club not in ["Unattached", "Free agent"]:
+                club_totals[club] = club_totals.get(club, 0) + count
+                
+    # Sorter
+    sorted_clubs = sorted(club_totals.items(), key=lambda x: x[1], reverse=True)
+    
+    # Valg for hvor mange klubber man vil se
+    top_limit = st.slider("Vis antall klubber:", 10, 50, 20, 5)
+    top_clubs = sorted_clubs[:top_limit]
+    
+    df_clubs = pd.DataFrame(top_clubs, columns=["Klubb", "Antall spillere"])
+    
+    # Bruk Plotly for et pent liggende stolpediagram
+    fig_clubs = px.bar(
+        df_clubs, 
+        x="Antall spillere", 
+        y="Klubb", 
+        orientation='h', 
+        color="Antall spillere", 
+        color_continuous_scale="Blues"
+    )
+    fig_clubs.update_layout(
+        yaxis={'categoryorder':'total ascending'}, 
+        height=max(400, top_limit * 30),
+        margin=dict(l=20, r=20, t=40, b=20)
+    )
+    st.plotly_chart(fig_clubs, use_container_width=True)
