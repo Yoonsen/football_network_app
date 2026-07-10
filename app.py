@@ -6,104 +6,12 @@ import networkx as nx
 import plotly.graph_objects as go
 from itertools import combinations
 
+import json
+
 # --- DATA ---
-data = {
-  "Norge": {
-    "Manchester City": 2, "Arsenal": 1, "Atletico Madrid": 1, "Bodø/Glimt": 1, 
-    "Bologna": 1, "Borussia Dortmund": 1, "Brentford": 1, "Fulham": 1, 
-    "RB Leipzig": 1, "Sevilla": 1, "Wolves": 1
-  },
-  "England": {
-    "Arsenal": 2, "Manchester City": 2, "Aston Villa": 1, "Bayer Leverkusen": 1, 
-    "Bayern München": 1, "Everton": 1, "Newcastle United": 1, "Nottingham Forest": 1, 
-    "Real Madrid": 1
-  },
-  "Argentina": {
-    "Atlético Madrid": 4, "Inter Miami CF": 2, "Olympique Marseille": 2, "Aston Villa": 1, 
-    "Bayer Leverkusen": 1, "Benfica": 1, "Botafogo": 1, "Bournemouth": 1, 
-    "Brighton & Hove Albion": 1, "Chelsea": 1, "Inter Milan": 1, "Juventus": 1, 
-    "Liverpool": 1, "Lyon": 1, "Manchester United": 1, "Real Betis": 1, 
-    "Real Madrid": 1, "River Plate": 1, "Roma": 1, "SE Palmeiras": 1, "Tottenham Hotspur": 1
-  },
-  "Spania": {
-    "Barcelona": 8, "Arsenal": 3, "Athletic Bilbao": 3, "Atletico Madrid": 3, 
-    "Bayer Leverkusen": 1, "Celta Vigo": 1, "Chelsea": 1, "Crystal Palace": 1, 
-    "Manchester City": 1, "Osasuna": 1, "PSG": 1, "Real Sociedad": 1, "Tottenham Hotspur": 1
-  },
-  "Belgia": {
-    "Club Brugge KV": 3, "LOSC Lille": 3, "AC Milan": 2, "Aston Villa": 2, 
-    "SSC Napoli": 2, "Arsenal": 1, "Atalanta BC": 1, "Brighton & Hove Albion": 1, 
-    "Chelsea": 1, "Eintracht Frankfurt": 1, "Fulham": 1, "Girona FC": 1, 
-    "Manchester City": 1, "Manchester United": 1, "Rangers F.C.": 1, 
-    "RC Strasbourg Alsace": 1, "Real Madrid": 1, "S.L. Benfica": 1, "Sporting CP": 1
-  },
-  "Frankrike": {
-    "Bayern München": 4, "Real Madrid": 3, "AC Milan": 2, "Juventus": 2,
-    "Barcelona": 2, "PSG": 2, "Arsenal": 1, "Tottenham Hotspur": 1,
-    "Atletico Madrid": 1, "Manchester United": 1, "Liverpool": 1,
-    "Eintracht Frankfurt": 1, "Monaco": 1, "Olympique Marseille": 1, "Rennes": 1
-  },
-  "Brasil": {
-    "Real Madrid": 3, "Juventus": 3, "Manchester United": 3, "Arsenal": 2,
-    "Chelsea": 1, "Tottenham Hotspur": 1, "Liverpool": 2, "PSG": 2,
-    "Barcelona": 1, "Newcastle United": 1, "West Ham": 1, "Flamengo": 2,
-    "SE Palmeiras": 1, "Sevilla": 1
-  },
-  "Portugal": {
-    "Manchester City": 3, "Manchester United": 2, "Wolves": 3, "PSG": 3,
-    "Porto": 3, "S.L. Benfica": 2, "Sporting CP": 1, "AC Milan": 1,
-    "RB Leipzig": 1, "Fulham": 1, "Atletico Madrid": 1, "Borussia Dortmund": 1
-  },
-  "Nederland": {
-    "Ajax": 7, "PSV": 3, "Barcelona": 2, "Bayern München": 2, "Inter Milan": 2,
-    "Liverpool": 1, "Manchester City": 1, "Manchester United": 1, "Atalanta BC": 1,
-    "Bayer Leverkusen": 1, "Club Brugge KV": 1
-  },
-  "Sveits": {
-    "Borussia Mönchengladbach": 3, "Torino": 2, "Arsenal": 1, "Bayer Leverkusen": 1,
-    "Manchester City": 1, "Chelsea": 1, "Monaco": 2, "Bologna": 2, "Inter Milan": 1
-  },
-  "Polen": {
-    "Juventus": 2, "SSC Napoli": 1, "Barcelona": 1, "Aston Villa": 1, 
-    "Arsenal": 1, "Roma": 1, "Feyenoord": 1, "RC Lens": 1
-  },
-  "USA": {
-    "Chelsea": 1, "Juventus": 2, "AC Milan": 1, "PSV": 1, "Fulham": 2, 
-    "Borussia Dortmund": 1, "Crystal Palace": 1, "Bournemouth": 1
-  },
-  "Senegal": {
-    "Chelsea": 1, "Everton": 1, "Tottenham Hotspur": 1, "Bayern München": 1, 
-    "Olympique Marseille": 2, "Monaco": 1, "Nottingham Forest": 1
-  },
-  "Kroatia": {
-    "Dinamo Zagreb": 4, "Real Madrid": 1, "Chelsea": 1, "Tottenham Hotspur": 1,
-    "Inter Milan": 1, "Atalanta BC": 1, "RB Leipzig": 1, "Rennes": 1,
-    "Osasuna": 1, "VfL Wolfsburg": 1, "Torino": 1, "Sassuolo": 1
-  },
-  "Marokko": {
-    "Sevilla": 2, "Angers SCO": 2, "PSG": 1, "Chelsea": 1, "Bayern München": 1,
-    "Fiorentina": 1, "Toulouse": 1, "Sampdoria": 1, "Standard Liège": 1,
-    "Besiktas": 1, "Wydad AC": 3
-  },
-  "Japan": {
-    "Celtic": 3, "Brighton & Hove Albion": 1, "Arsenal": 1, "Real Sociedad": 1,
-    "SC Freiburg": 1, "Eintracht Frankfurt": 1, "VfL Bochum": 1, "Sporting CP": 1,
-    "Monaco": 1
-  },
-  "Australia": {
-    "Celtic": 2, "Heart of Midlothian": 2, "FC St. Pauli": 1, "Hellas Verona": 1,
-    "Middlesbrough": 1, "Cádiz CF": 1, "FC Copenhagen": 1
-  },
-  "Sør-Korea": {
-    "Tottenham Hotspur": 1, "Wolves": 1, "Bayern München": 1, "PSG": 1,
-    "FSV Mainz 05": 1, "FC Midtjylland": 1, "Napoli": 1, "Olympiacos": 1
-  },
-  "Elfenbenskysten": {
-    "Nottingham Forest": 2, "Roma": 1, "Borussia Dortmund": 1, "Galatasaray": 1,
-    "Sporting CP": 1, "Bayer Leverkusen": 1, "Brighton & Hove Albion": 1,
-    "Manchester United": 1, "Monaco": 1
-  }
-}
+# Last inn dynamisk data generert av scraper.py (VM 2022 lag)
+with open("data.json", "r") as f:
+    data = json.load(f)
 
 # Hjelpefunksjon for å kartlegge klubb til liga
 def get_league(club):
