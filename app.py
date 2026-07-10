@@ -154,6 +154,8 @@ with tab1:
         
         # Legger til usynlige treffpunkter langs hele kanten (25%, 50%, 75%) for mye enklere hover
         shared = set(data[n1].keys()).intersection(set(data[n2].keys()))
+        shared -= {"Unattached", "Free agent"}
+        
         shared_details = []
         for c in shared:
             shared_details.append(f"{c} ({data[n1][c]} + {data[n2][c]})")
