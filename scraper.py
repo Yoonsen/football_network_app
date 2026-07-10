@@ -5,6 +5,13 @@ import io
 import time
 
 teams = {
+    "Norway": "Norway_national_football_team",
+    "Austria": "Austria_national_football_team",
+    "Italy": "Italy_national_football_team",
+    "Sweden": "Sweden_national_football_team",
+    "Colombia": "Colombia_national_football_team",
+    "Chile": "Chile_national_football_team",
+    "Nigeria": "Nigeria_national_football_team",
     "Qatar": "Qatar_national_football_team",
     "Ecuador": "Ecuador_national_football_team",
     "Senegal": "Senegal_national_football_team",
@@ -16,7 +23,6 @@ teams = {
     "Argentina": "Argentina_national_football_team",
     "Saudi Arabia": "Saudi_Arabia_national_football_team",
     "Mexico": "Mexico_national_football_team",
-    "Poland": "Poland_national_football_team",
     "France": "France_national_football_team",
     "Australia": "Australia_men%27s_national_soccer_team",
     "Denmark": "Denmark_national_football_team",
@@ -26,7 +32,6 @@ teams = {
     "Germany": "Germany_national_football_team",
     "Japan": "Japan_national_football_team",
     "Belgium": "Belgium_national_football_team",
-    "Canada": "Canada_men%27s_national_soccer_team",
     "Morocco": "Morocco_national_football_team",
     "Croatia": "Croatia_national_football_team",
     "Brazil": "Brazil_national_football_team",
