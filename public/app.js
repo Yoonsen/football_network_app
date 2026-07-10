@@ -68,37 +68,52 @@ function updateGraphFromThreshold() {
     // Filter edges based on threshold
     const filteredEdges = rawData.edges.filter(e => e.weight >= threshold);
     
-    // Filter nodes that actually have connections at this threshold
+    // Finn hvilke noder som er tilkoblet
     const connectedNodes = new Set();
     filteredEdges.forEach(e => {
         connectedNodes.add(e.from);
         connectedNodes.add(e.to);
     });
 
-    const visNodes = rawData.nodes
-        .filter(n => connectedNodes.has(n.id))
-        .map(n => {
-            const color = colors[n.group % colors.length];
-            // Node size based on betweenness centrality
-            const size = 15 + (n.betweenness * 50);
-            return {
-                id: n.id,
-                label: n.label,
-                group: n.group,
-                top_clubs: n.top_clubs,
-                size: size,
-                color: {
-                    background: color,
-                    border: '#ffffff',
-                    hover: { background: color, border: '#ffffff' },
-                    highlight: { background: color, border: '#ffffff' }
-                },
-                font: { color: '#ffffff', size: 14, strokeWidth: 0 },
-                borderWidth: 1,
-                shadow: true,
-                originalColor: color
-            };
-        });
+    let singletonX = -800; // Startposisjon for isolerte land
+
+    const visNodes = rawData.nodes.map(n => {
+        const isSingleton = !connectedNodes.has(n.id);
+        
+        // Singletons blir grå, tilkoblede noder får klyngefargen sin
+        const color = isSingleton ? 'rgba(80, 80, 80, 0.8)' : colors[n.group % colors.length];
+        const size = 15 + (n.betweenness * 50);
+        
+        let nodeConfig = {
+            id: n.id,
+            label: n.label,
+            group: n.group,
+            top_clubs: n.top_clubs,
+            size: size,
+            color: {
+                background: color,
+                border: '#ffffff',
+                hover: { background: color, border: '#ffffff' },
+                highlight: { background: color, border: '#ffffff' }
+            },
+            font: { color: '#ffffff', size: 14, strokeWidth: 0 },
+            borderWidth: 1,
+            shadow: true,
+            originalColor: color,
+            isSingleton: isSingleton
+        };
+
+        // Fest isolerte land på en horisontal linje nederst i skjermbildet
+        if (isSingleton) {
+            nodeConfig.x = singletonX;
+            nodeConfig.y = 600; 
+            nodeConfig.fixed = { x: true, y: true };
+            nodeConfig.size = 12; // Gjør dem litt mindre
+            singletonX += 80;
+        }
+
+        return nodeConfig;
+    });
 
     const visEdges = filteredEdges.map(e => ({
         id: `${e.from}-${e.to}`,
