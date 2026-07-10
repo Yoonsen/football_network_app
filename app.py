@@ -226,7 +226,9 @@ with tab1:
             hoverinfo='text',
             name=f"Klynge {i+1}",
             legendgroup=f"Klynge {i+1}",
-            marker=dict(size=20, color=color, opacity=opacity, line=dict(width=1, color='white'))
+            marker=dict(size=20, color=color, opacity=opacity, line=dict(width=1, color='white')),
+            selected=dict(marker=dict(opacity=opacity)),    # Overstyr Plotly sin frontend-dimming
+            unselected=dict(marker=dict(opacity=opacity))   # La backend (trace_index-logikken) styre i stedet
         )
         node_traces.append(trace)
 
