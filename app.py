@@ -67,6 +67,13 @@ with tab1:
     all_clubs = set()
     for nation, clubs in data.items():
         all_clubs.update(clubs.keys())
+        
+    # Fjern klubbløse spillere fra vektorrommet slik at de ikke skaper falske koblinger
+    if "Unattached" in all_clubs:
+        all_clubs.remove("Unattached")
+    if "Free agent" in all_clubs:
+        all_clubs.remove("Free agent")
+        
     all_clubs = list(all_clubs)
     
     # Lag vektorer
@@ -91,7 +98,7 @@ with tab1:
             G_full.add_edge(n1, n2, weight=sim)
             
     # k-parameteren gir mer "frastøtning" mellom nodene slik at de får mer plass
-    pos = nx.spring_layout(G_full, seed=42, k=0.6, iterations=100)
+    pos = nx.spring_layout(G_full, seed=42, k=0.9, iterations=100)
 
     # Bygg den faktiske grafen for den valgte terskelen
     G = nx.Graph()
@@ -177,7 +184,7 @@ with tab1:
         textposition="bottom center",
         hovertext=hover_text,
         hoverinfo='text',
-        marker=dict(size=40, color=node_colors, line=dict(width=2, color='white')))
+        marker=dict(size=20, color=node_colors, line=dict(width=1, color='white')))
 
     fig = go.Figure(data=[edge_trace, edge_hover_trace, node_trace],
              layout=go.Layout(
