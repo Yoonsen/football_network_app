@@ -287,13 +287,20 @@ with tab1:
         node_strs = [f"{n} ({G.degree(n)} koblinger)" for n in sorted_nodes]
         st.markdown(f"**Klynge {i+1}:** {', '.join(node_strs)}")
     
-    st.markdown("#### Topp brokbyggere (Betweenness Centrality)")
+    st.markdown("#### Topp brobyggere (Betweenness Centrality)")
     st.write("Måler hvor ofte et land opptrer som det korteste bindeleddet mellom to andre land i nettverket.")
     cent_df = pd.DataFrame(list(centrality.items()), columns=["Nasjon", "Centrality"]).sort_values(by="Centrality", ascending=False)
     
     fig_bar = go.Figure(data=[go.Bar(x=cent_df["Nasjon"], y=cent_df["Centrality"], marker_color='lightblue')])
-    fig_bar.update_layout(margin=dict(l=0, r=0, t=30, b=0), xaxis_title="", yaxis_title="Betweenness Centrality")
-    st.plotly_chart(fig_bar, width='stretch')
+    fig_bar.update_layout(
+        margin=dict(l=0, r=0, t=30, b=0), 
+        xaxis_title="", 
+        yaxis_title="Betweenness Centrality",
+        dragmode=False,
+        xaxis=dict(fixedrange=True),
+        yaxis=dict(fixedrange=True)
+    )
+    st.plotly_chart(fig_bar, width='stretch', config={'scrollZoom': False, 'displayModeBar': False})
 
 # --- TAB 2: ENTROPI ---
 with tab2:
