@@ -232,14 +232,14 @@ with tab1:
 
     edge_trace = go.Scatter(
         x=edge_x, y=edge_y,
-        line=dict(width=2, color='#888'),
+        line=dict(width=3.5, color='rgba(136, 136, 136, 0.6)'), # Tykkere linje med alpha=0.6 for lesbarhet
         hoverinfo='none',
         mode='lines')
 
     edge_hover_trace = go.Scatter(
         x=edge_hover_x, y=edge_hover_y,
         mode='markers',
-        marker=dict(size=14, color='rgba(0,0,0,0)'),
+        marker=dict(size=30, color='rgba(0,0,0,0)'), # Større usynlig treffpunkt for enklere hover
         hovertext=edge_hover_text,
         hoverinfo='text'
     )
