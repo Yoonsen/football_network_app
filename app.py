@@ -145,7 +145,7 @@ tab1, tab2 = st.tabs(["Nettverksgraf (Cosinus-likhet)", "Entropi (Effektive Liga
 # --- TAB 1: NETTVERKSGRAF ---
 with tab1:
     st.markdown("### Nettverksanalyse av landslag basert på klubb-overlapp")
-    threshold = st.slider("Cosinus-likhet terskel", 0.0, 0.5, 0.1, 0.05)
+    threshold = st.slider("Cosinus-likhet terskel", 0.0, 0.5, 0.25, 0.05)
     
     # Bygg en liste av alle unike klubber for å lage vektorer
     all_clubs = set()
