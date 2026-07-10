@@ -61,7 +61,19 @@ tab1, tab2 = st.tabs(["Nettverksgraf (Cosinus-likhet)", "Entropi (Effektive Liga
 # --- TAB 1: NETTVERKSGRAF ---
 with tab1:
     st.markdown("### Nettverksanalyse av landslag basert på klubb-overlapp")
-    threshold = st.slider("Cosinus-likhet terskel", 0.0, 0.5, 0.15, 0.05)
+    
+    # Session state for layout seed
+    if 'layout_seed' not in st.session_state:
+        st.session_state.layout_seed = 42
+        
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        threshold = st.slider("Cosinus-likhet terskel", 0.0, 0.5, 0.15, 0.05)
+    with col2:
+        st.write("") # Spacing
+        st.write("") # Spacing
+        if st.button("Tegn graf på nytt 🎲"):
+            st.session_state.layout_seed = np.random.randint(0, 100000)
     
     # Bygg en liste av alle unike klubber for å lage vektorer
     all_clubs = set()
@@ -98,7 +110,7 @@ with tab1:
             G_full.add_edge(n1, n2, weight=sim)
             
     # k-parameteren gir mer "frastøtning" mellom nodene slik at de får mer plass
-    pos = nx.spring_layout(G_full, seed=42, k=0.9, iterations=100)
+    pos = nx.spring_layout(G_full, seed=st.session_state.layout_seed, k=0.9, iterations=100)
 
     # Bygg den faktiske grafen for den valgte terskelen
     G = nx.Graph()
