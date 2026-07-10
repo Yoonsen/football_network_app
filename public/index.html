@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Fotballens Makrostruktur</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0a0a">
+    
+    <!-- Vis.js -->
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <!-- Sidebar / Controls -->
+        <aside id="sidebar">
+            <div class="header">
+                <h1>Fotballens Makrostruktur</h1>
+                <p>Nettverksanalyse av landslag basert på klubb-overlapp.</p>
+            </div>
+            
+            <div class="control-group">
+                <label>Datasett</label>
+                <div class="toggle-container">
+                    <button id="btn-2026" class="active">Nåværende (2026)</button>
+                    <button id="btn-2022">VM 2022</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="threshold-slider">Cosinus-likhet terskel: <span id="threshold-val">0.15</span></label>
+                <input type="range" id="threshold-slider" min="0" max="0.5" step="0.01" value="0.15">
+            </div>
+
+            <div id="details-panel" class="hidden">
+                <h2 id="detail-title">Land</h2>
+                <div id="detail-content"></div>
+            </div>
+        </aside>
+
+        <!-- Network Canvas -->
+        <main id="network-container">
+            <div id="mynetwork"></div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5350 @@
+{
+  "nodes": [
+    {
+      "id": "Algeria",
+      "label": "Algeria",
+      "group": 0,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Lille",
+          "count": 2
+        },
+        {
+          "club": "Borussia Dortmund",
+          "count": 1
+        },
+        {
+          "club": "Twente",
+          "count": 1
+        },
+        {
+          "club": "VfL Wolfsburg",
+          "count": 1
+        },
+        {
+          "club": "Nice",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Argentina",
+      "label": "Argentina",
+      "group": 8,
+      "betweenness": 0.0071088794926004225,
+      "top_clubs": [
+        {
+          "club": "Atl\u00e9tico Madrid",
+          "count": 3
+        },
+        {
+          "club": "Inter Miami",
+          "count": 2
+        },
+        {
+          "club": "River Plate",
+          "count": 1
+        },
+        {
+          "club": "Internazionale",
+          "count": 1
+        },
+        {
+          "club": "Boca Juniors",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Australia",
+      "label": "Australia",
+      "group": 1,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Melbourne City",
+          "count": 2
+        },
+        {
+          "club": "FC St. Pauli",
+          "count": 2
+        },
+        {
+          "club": "Levante",
+          "count": 1
+        },
+        {
+          "club": "APOEL",
+          "count": 1
+        },
+        {
+          "club": "Leicester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Austria",
+      "label": "Austria",
+      "group": 9,
+      "betweenness": 0.027167019027484144,
+      "top_clubs": [
+        {
+          "club": "Unattached",
+          "count": 2
+        },
+        {
+          "club": "Red Star Belgrade",
+          "count": 1
+        },
+        {
+          "club": "Borussia Dortmund",
+          "count": 1
+        },
+        {
+          "club": "FC Augsburg",
+          "count": 1
+        },
+        {
+          "club": "Braga",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Belgium",
+      "label": "Belgium",
+      "group": 5,
+      "betweenness": 0.012177454328617122,
+      "top_clubs": [
+        {
+          "club": "Napoli",
+          "count": 2
+        },
+        {
+          "club": "Aston Villa",
+          "count": 2
+        },
+        {
+          "club": "Unattached",
+          "count": 2
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Fulham",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Bosnia and Herzegovina",
+      "label": "Bosnia and Herzegovina",
+      "group": 2,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Schalke 04",
+          "count": 2
+        },
+        {
+          "club": "Unattached",
+          "count": 2
+        },
+        {
+          "club": "Atalanta",
+          "count": 1
+        },
+        {
+          "club": "VfB Stuttgart",
+          "count": 1
+        },
+        {
+          "club": "Hull City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Brazil",
+      "label": "Brazil",
+      "group": 3,
+      "betweenness": 0.009846677869933684,
+      "top_clubs": [
+        {
+          "club": "Flamengo",
+          "count": 3
+        },
+        {
+          "club": "Santos",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Liverpool",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Cape Verde",
+      "label": "Cape Verde",
+      "group": 4,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Unattached",
+          "count": 5
+        },
+        {
+          "club": "Apollon Limassol",
+          "count": 1
+        },
+        {
+          "club": "Torreense",
+          "count": 1
+        },
+        {
+          "club": "Shamrock Rovers",
+          "count": 1
+        },
+        {
+          "club": "FCSB",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Colombia",
+      "label": "Colombia",
+      "group": 9,
+      "betweenness": 0.032497734823316214,
+      "top_clubs": [
+        {
+          "club": "Crystal Palace",
+          "count": 2
+        },
+        {
+          "club": "Unattached",
+          "count": 2
+        },
+        {
+          "club": "Galatasaray",
+          "count": 1
+        },
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Independiente",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Croatia",
+      "label": "Croatia",
+      "group": 5,
+      "betweenness": 0.020843174912942356,
+      "top_clubs": [
+        {
+          "club": "Manchester City",
+          "count": 2
+        },
+        {
+          "club": "Milan",
+          "count": 1
+        },
+        {
+          "club": "PSV Eindhoven",
+          "count": 1
+        },
+        {
+          "club": "TSG Hoffenheim",
+          "count": 1
+        },
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Cura\u00e7ao",
+      "label": "Cura\u00e7ao",
+      "group": 6,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Volendam",
+          "count": 2
+        },
+        {
+          "club": "RKC Waalwijk",
+          "count": 2
+        },
+        {
+          "club": "Miami FC",
+          "count": 1
+        },
+        {
+          "club": "I\u011fd\u0131r",
+          "count": 1
+        },
+        {
+          "club": "Abha",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Czech Republic",
+      "label": "Czech Republic",
+      "group": 7,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Slavia Prague",
+          "count": 5
+        },
+        {
+          "club": "TSG Hoffenheim",
+          "count": 2
+        },
+        {
+          "club": "Sparta Prague",
+          "count": 2
+        },
+        {
+          "club": "West Ham United",
+          "count": 1
+        },
+        {
+          "club": "Hradec Kr\u00e1lov\u00e9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "DR Congo",
+      "label": "DR Congo",
+      "group": 0,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Unattached",
+          "count": 3
+        },
+        {
+          "club": "Lille",
+          "count": 1
+        },
+        {
+          "club": "Alanyaspor",
+          "count": 1
+        },
+        {
+          "club": "Atromitos",
+          "count": 1
+        },
+        {
+          "club": "Sunderland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Ecuador",
+      "label": "Ecuador",
+      "group": 3,
+      "betweenness": 0.00038759689922480625,
+      "top_clubs": [
+        {
+          "club": "Atl\u00e9tico Mineiro",
+          "count": 2
+        },
+        {
+          "club": "Hurac\u00e1n",
+          "count": 2
+        },
+        {
+          "club": "Pachuca",
+          "count": 1
+        },
+        {
+          "club": "Chelsea",
+          "count": 1
+        },
+        {
+          "club": "Arsenal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Egypt",
+      "label": "Egypt",
+      "group": 3,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Al Ahly",
+          "count": 6
+        },
+        {
+          "club": "Al-Wakrah",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Al Ain",
+          "count": 1
+        },
+        {
+          "club": "Zamalek",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "England",
+      "label": "England",
+      "group": 5,
+      "betweenness": 0.04545919197081988,
+      "top_clubs": [
+        {
+          "club": "Arsenal",
+          "count": 3
+        },
+        {
+          "club": "Aston Villa",
+          "count": 2
+        },
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Brentford",
+          "count": 1
+        },
+        {
+          "club": "Everton",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "France",
+      "label": "France",
+      "group": 3,
+      "betweenness": 0.04016803609826866,
+      "top_clubs": [
+        {
+          "club": "Real Madrid",
+          "count": 3
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 2
+        },
+        {
+          "club": "AC Milan",
+          "count": 2
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Aston Villa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Germany",
+      "label": "Germany",
+      "group": 9,
+      "betweenness": 0.07997864538562212,
+      "top_clubs": [
+        {
+          "club": "Bayern Munich",
+          "count": 5
+        },
+        {
+          "club": "Borussia Dortmund",
+          "count": 2
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Galatasaray",
+          "count": 1
+        },
+        {
+          "club": "Arsenal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Ghana",
+      "label": "Ghana",
+      "group": 5,
+      "betweenness": 0.0005285412262156448,
+      "top_clubs": [
+        {
+          "club": "Unattached",
+          "count": 4
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Leicester City",
+          "count": 1
+        },
+        {
+          "club": "St. Gallen",
+          "count": 1
+        },
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Haiti",
+      "label": "Haiti",
+      "group": 10,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Colorado Springs Switchbacks",
+          "count": 2
+        },
+        {
+          "club": "Unattached",
+          "count": 2
+        },
+        {
+          "club": "Esteghlal",
+          "count": 1
+        },
+        {
+          "club": "LDU Quito",
+          "count": 1
+        },
+        {
+          "club": "Angers",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Iran",
+      "label": "Iran",
+      "group": 11,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Persepolis",
+          "count": 2
+        },
+        {
+          "club": "Tractor",
+          "count": 2
+        },
+        {
+          "club": "Unattached",
+          "count": 2
+        },
+        {
+          "club": "Sepahan",
+          "count": 1
+        },
+        {
+          "club": "Olympiacos",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Iraq",
+      "label": "Iraq",
+      "group": 12,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Al-Shorta",
+          "count": 3
+        },
+        {
+          "club": "Al-Karma",
+          "count": 1
+        },
+        {
+          "club": "Al-Dhafra",
+          "count": 1
+        },
+        {
+          "club": "Port",
+          "count": 1
+        },
+        {
+          "club": "Cracovia",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Ivory Coast",
+      "label": "Ivory Coast",
+      "group": 8,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Maribor",
+          "count": 1
+        },
+        {
+          "club": "Nottingham Forest",
+          "count": 1
+        },
+        {
+          "club": "Villarreal",
+          "count": 1
+        },
+        {
+          "club": "Gil Vicente",
+          "count": 1
+        },
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Japan",
+      "label": "Japan",
+      "group": 9,
+      "betweenness": 0.0012684989429175475,
+      "top_clubs": [
+        {
+          "club": "FC Tokyo",
+          "count": 1
+        },
+        {
+          "club": "Genk",
+          "count": 1
+        },
+        {
+          "club": "Eintracht Frankfurt",
+          "count": 1
+        },
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        },
+        {
+          "club": "Real Sociedad",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Jordan",
+      "label": "Jordan",
+      "group": 13,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Unattached",
+          "count": 4
+        },
+        {
+          "club": "Al-Hussein",
+          "count": 3
+        },
+        {
+          "club": "Al-Karma",
+          "count": 2
+        },
+        {
+          "club": "Rennes",
+          "count": 1
+        },
+        {
+          "club": "FC Seoul",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Mexico",
+      "label": "Mexico",
+      "group": 14,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Toluca",
+          "count": 2
+        },
+        {
+          "club": "Guadalajara",
+          "count": 2
+        },
+        {
+          "club": "Retired",
+          "count": 1
+        },
+        {
+          "club": "Wolverhampton Wanderers",
+          "count": 1
+        },
+        {
+          "club": "West Ham United",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Morocco",
+      "label": "Morocco",
+      "group": 3,
+      "betweenness": 0.0373015873015873,
+      "top_clubs": [
+        {
+          "club": "Roma",
+          "count": 2
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Olympiacos",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Netherlands",
+      "label": "Netherlands",
+      "group": 3,
+      "betweenness": 0.018224637119985957,
+      "top_clubs": [
+        {
+          "club": "Liverpool",
+          "count": 3
+        },
+        {
+          "club": "Corinthians",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "New Zealand",
+      "label": "New Zealand",
+      "group": 15,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Nottingham Forest",
+          "count": 2
+        },
+        {
+          "club": "Western Sydney Wanderers",
+          "count": 1
+        },
+        {
+          "club": "Minnesota United",
+          "count": 1
+        },
+        {
+          "club": "Braintree Town",
+          "count": 1
+        },
+        {
+          "club": "Olimpia",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Norway",
+      "label": "Norway",
+      "group": 5,
+      "betweenness": 0.01945031712473573,
+      "top_clubs": [
+        {
+          "club": "Atl\u00e9tico Madrid",
+          "count": 1
+        },
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Fulham",
+          "count": 1
+        },
+        {
+          "club": "Brentford",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Panama",
+      "label": "Panama",
+      "group": 16,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Plaza Amador",
+          "count": 2
+        },
+        {
+          "club": "San Diego",
+          "count": 1
+        },
+        {
+          "club": "Saprissa",
+          "count": 1
+        },
+        {
+          "club": "Be\u015fikta\u015f",
+          "count": 1
+        },
+        {
+          "club": "Ju\u00e1rez",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Paraguay",
+      "label": "Paraguay",
+      "group": 9,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Palmeiras",
+          "count": 2
+        },
+        {
+          "club": "Atlanta United",
+          "count": 1
+        },
+        {
+          "club": "Atl\u00e9tico Mineiro",
+          "count": 1
+        },
+        {
+          "club": "Cremonese",
+          "count": 1
+        },
+        {
+          "club": "Gr\u00eamio",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Portugal",
+      "label": "Portugal",
+      "group": 3,
+      "betweenness": 0.020891382519289504,
+      "top_clubs": [
+        {
+          "club": "Al-Nassr",
+          "count": 2
+        },
+        {
+          "club": "Manchester United",
+          "count": 2
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 2
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Qatar",
+      "label": "Qatar",
+      "group": 17,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Al-Sadd",
+          "count": 5
+        },
+        {
+          "club": "Al-Duhail",
+          "count": 2
+        },
+        {
+          "club": "Al-Rayyan",
+          "count": 2
+        },
+        {
+          "club": "Al-Wakrah",
+          "count": 2
+        },
+        {
+          "club": "Cultural Leonesa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Saudi Arabia",
+      "label": "Saudi Arabia",
+      "group": 8,
+      "betweenness": 0.0013742071881606766,
+      "top_clubs": [
+        {
+          "club": "Al-Hilal",
+          "count": 5
+        },
+        {
+          "club": "Al-Nassr",
+          "count": 4
+        },
+        {
+          "club": "Al-Ahli",
+          "count": 1
+        },
+        {
+          "club": "Al-Ula",
+          "count": 1
+        },
+        {
+          "club": "Al-Ittihad",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Scotland",
+      "label": "Scotland",
+      "group": 5,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Celtic",
+          "count": 2
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        },
+        {
+          "club": "Aston Villa",
+          "count": 1
+        },
+        {
+          "club": "Heart of Midlothian",
+          "count": 1
+        },
+        {
+          "club": "Napoli",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Senegal",
+      "label": "Senegal",
+      "group": 8,
+      "betweenness": 0.021965082720896676,
+      "top_clubs": [
+        {
+          "club": "Unattached",
+          "count": 2
+        },
+        {
+          "club": "Al-Nassr",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        },
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        },
+        {
+          "club": "Al-Ahli",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "South Africa",
+      "label": "South Africa",
+      "group": 18,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Mamelodi Sundowns",
+          "count": 6
+        },
+        {
+          "club": "Orlando Pirates",
+          "count": 4
+        },
+        {
+          "club": "Tondela",
+          "count": 1
+        },
+        {
+          "club": "Burnley",
+          "count": 1
+        },
+        {
+          "club": "Union Saint-Gilloise",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "South Korea",
+      "label": "South Korea",
+      "group": 9,
+      "betweenness": 0.007127755964965268,
+      "top_clubs": [
+        {
+          "club": "Los Angeles FC",
+          "count": 1
+        },
+        {
+          "club": "Mainz 05",
+          "count": 1
+        },
+        {
+          "club": "FC Tokyo",
+          "count": 1
+        },
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Wolverhampton Wanderers",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Spain",
+      "label": "Spain",
+      "group": 3,
+      "betweenness": 0.006371632243725269,
+      "top_clubs": [
+        {
+          "club": "Barcelona",
+          "count": 5
+        },
+        {
+          "club": "Athletic Bilbao",
+          "count": 3
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Real Sociedad",
+          "count": 1
+        },
+        {
+          "club": "Arsenal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Switzerland",
+      "label": "Switzerland",
+      "group": 19,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Sevilla",
+          "count": 2
+        },
+        {
+          "club": "Sunderland",
+          "count": 1
+        },
+        {
+          "club": "Bologna",
+          "count": 1
+        },
+        {
+          "club": "Rennes",
+          "count": 1
+        },
+        {
+          "club": "Inter Milan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Tunisia",
+      "label": "Tunisia",
+      "group": 9,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "Eintracht Frankfurt",
+          "count": 1
+        },
+        {
+          "club": "Lorient",
+          "count": 1
+        },
+        {
+          "club": "Servette",
+          "count": 1
+        },
+        {
+          "club": "Nice",
+          "count": 1
+        },
+        {
+          "club": "Burnley",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Turkey",
+      "label": "Turkey",
+      "group": 3,
+      "betweenness": 0.022367232250953183,
+      "top_clubs": [
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 6
+        },
+        {
+          "club": "Galatasaray",
+          "count": 3
+        },
+        {
+          "club": "Inter Milan",
+          "count": 1
+        },
+        {
+          "club": "Al-Ahli",
+          "count": 1
+        },
+        {
+          "club": "Be\u015fikta\u015f",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "United States",
+      "label": "United States",
+      "group": 20,
+      "betweenness": 0.0,
+      "top_clubs": [
+        {
+          "club": "PSV",
+          "count": 2
+        },
+        {
+          "club": "AC Milan",
+          "count": 1
+        },
+        {
+          "club": "Charlotte FC",
+          "count": 1
+        },
+        {
+          "club": "Juventus",
+          "count": 1
+        },
+        {
+          "club": "Leeds United",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "Uruguay",
+      "label": "Uruguay",
+      "group": 3,
+      "betweenness": 0.006183932346723045,
+      "top_clubs": [
+        {
+          "club": "Flamengo",
+          "count": 4
+        },
+        {
+          "club": "Estudiantes",
+          "count": 1
+        },
+        {
+          "club": "Atl\u00e9tico Madrid",
+          "count": 1
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "Algeria",
+      "to": "Austria",
+      "weight": 0.07453559924999299,
+      "shared": [
+        {
+          "club": "Borussia Dortmund",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Belgium",
+      "weight": 0.12909944487358055,
+      "shared": [
+        {
+          "club": "Eintracht Frankfurt",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Bosnia and Herzegovina",
+      "weight": 0.06900655593423542,
+      "shared": [
+        {
+          "club": "Young Boys",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Brazil",
+      "weight": 0.05923488777590923,
+      "shared": [
+        {
+          "club": "Al-Ittihad",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Croatia",
+      "weight": 0.12909944487358055,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Czech Republic",
+      "weight": 0.041885390829169554,
+      "shared": [
+        {
+          "club": "Bayer Leverkusen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "DR Congo",
+      "weight": 0.1556997888323046,
+      "shared": [
+        {
+          "club": "Lille",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Egypt",
+      "weight": 0.07874992309581577,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Nice",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "England",
+      "weight": 0.0563436169819011,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Germany",
+      "weight": 0.08728715609439694,
+      "shared": [
+        {
+          "club": "Borussia Dortmund",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Ghana",
+      "weight": 0.0816496580927726,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Japan",
+      "weight": 0.0716114874039433,
+      "shared": [
+        {
+          "club": "Eintracht Frankfurt",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Netherlands",
+      "weight": 0.11547005383792514,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Twente",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Norway",
+      "weight": 0.1432229748078866,
+      "shared": [
+        {
+          "club": "Borussia Dortmund",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Portugal",
+      "weight": 0.05773502691896257,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Saudi Arabia",
+      "weight": 0.03806934938134405,
+      "shared": [
+        {
+          "club": "Al-Ittihad",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Spain",
+      "weight": 0.0408248290463863,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "Tunisia",
+      "weight": 0.13801311186847084,
+      "shared": [
+        {
+          "club": "Eintracht Frankfurt",
+          "count": 1
+        },
+        {
+          "club": "Nice",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Algeria",
+      "to": "United States",
+      "weight": 0.06454972243679027,
+      "shared": [
+        {
+          "club": "Marseille",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Austria",
+      "weight": 0.06154574548966636,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Belgium",
+      "weight": 0.10660035817780521,
+      "shared": [
+        {
+          "club": "Aston Villa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Brazil",
+      "weight": 0.04891159880445184,
+      "shared": [
+        {
+          "club": "Liverpool",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Colombia",
+      "weight": 0.05698028822981897,
+      "shared": [
+        {
+          "club": "River Plate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Croatia",
+      "weight": 0.053300179088902604,
+      "shared": [
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Czech Republic",
+      "weight": 0.03458572319330373,
+      "shared": [
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Ecuador",
+      "weight": 0.10050378152592121,
+      "shared": [
+        {
+          "club": "River Plate",
+          "count": 1
+        },
+        {
+          "club": "Chelsea",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "England",
+      "weight": 0.13957263155977062,
+      "shared": [
+        {
+          "club": "Chelsea",
+          "count": 1
+        },
+        {
+          "club": "Aston Villa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "France",
+      "weight": 0.04351941398892446,
+      "shared": [
+        {
+          "club": "Aston Villa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Germany",
+      "weight": 0.036037498507822355,
+      "shared": [
+        {
+          "club": "Liverpool",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Ghana",
+      "weight": 0.0674199862463242,
+      "shared": [
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Netherlands",
+      "weight": 0.19069251784911842,
+      "shared": [
+        {
+          "club": "Liverpool",
+          "count": 1
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Norway",
+      "weight": 0.17739371879672478,
+      "shared": [
+        {
+          "club": "Atl\u00e9tico Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Scotland",
+      "weight": 0.10660035817780521,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        },
+        {
+          "club": "Aston Villa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Senegal",
+      "weight": 0.1846372364689991,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        },
+        {
+          "club": "Chelsea",
+          "count": 1
+        },
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Spain",
+      "weight": 0.1011299793694863,
+      "shared": [
+        {
+          "club": "Atl\u00e9tico Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Argentina",
+      "to": "Uruguay",
+      "weight": 0.16724840200141816,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        },
+        {
+          "club": "Atl\u00e9tico Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Australia",
+      "to": "DR Congo",
+      "weight": 0.07106690545187015,
+      "shared": [
+        {
+          "club": "Watford",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Australia",
+      "to": "Ghana",
+      "weight": 0.07453559924999299,
+      "shared": [
+        {
+          "club": "Leicester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Australia",
+      "to": "Japan",
+      "weight": 0.1307440900921227,
+      "shared": [
+        {
+          "club": "Feyenoord",
+          "count": 1
+        },
+        {
+          "club": "Parma",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Australia",
+      "to": "New Zealand",
+      "weight": 0.05892556509887897,
+      "shared": [
+        {
+          "club": "Swansea City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Australia",
+      "to": "South Korea",
+      "weight": 0.06299407883487121,
+      "shared": [
+        {
+          "club": "Feyenoord",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Colombia",
+      "weight": 0.07715167498104597,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Croatia",
+      "weight": 0.14433756729740646,
+      "shared": [
+        {
+          "club": "Como",
+          "count": 1
+        },
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "England",
+      "weight": 0.06299407883487121,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "France",
+      "weight": 0.05892556509887897,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Germany",
+      "weight": 0.3903600291794133,
+      "shared": [
+        {
+          "club": "RB Leipzig",
+          "count": 1
+        },
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Borussia Dortmund",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Iraq",
+      "weight": 0.06454972243679027,
+      "shared": [
+        {
+          "club": "Como",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Japan",
+      "weight": 0.08006407690254358,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Morocco",
+      "weight": 0.07453559924999299,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Netherlands",
+      "weight": 0.06454972243679027,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Norway",
+      "weight": 0.16012815380508716,
+      "shared": [
+        {
+          "club": "RB Leipzig",
+          "count": 1
+        },
+        {
+          "club": "Borussia Dortmund",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Scotland",
+      "weight": 0.07216878364870323,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Senegal",
+      "weight": 0.08333333333333334,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "South Korea",
+      "weight": 0.23145502494313788,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Red Star Belgrade",
+          "count": 1
+        },
+        {
+          "club": "Mainz 05",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Switzerland",
+      "weight": 0.14907119849998599,
+      "shared": [
+        {
+          "club": "Mainz 05",
+          "count": 1
+        },
+        {
+          "club": "FC Augsburg",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Tunisia",
+      "weight": 0.15430334996209194,
+      "shared": [
+        {
+          "club": "Braga",
+          "count": 1
+        },
+        {
+          "club": "FC Augsburg",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Austria",
+      "to": "Uruguay",
+      "weight": 0.056613851707229795,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Bosnia and Herzegovina",
+      "weight": 0.1336306209562122,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        },
+        {
+          "club": "Benfica",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Brazil",
+      "weight": 0.11470786693528087,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Colombia",
+      "weight": 0.0668153104781061,
+      "shared": [
+        {
+          "club": "Benfica",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Croatia",
+      "weight": 0.1875,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Ecuador",
+      "weight": 0.05892556509887897,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Egypt",
+      "weight": 0.038124642583151166,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "England",
+      "weight": 0.49099025303098287,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Aston Villa",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "France",
+      "weight": 0.3061862178478973,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Aston Villa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Germany",
+      "weight": 0.08451542547285165,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Ghana",
+      "weight": 0.15811388300841897,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Ivory Coast",
+      "weight": 0.06933752452815364,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Japan",
+      "weight": 0.06933752452815364,
+      "shared": [
+        {
+          "club": "Eintracht Frankfurt",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Morocco",
+      "weight": 0.06454972243679027,
+      "shared": [
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Netherlands",
+      "weight": 0.16770509831248423,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Norway",
+      "weight": 0.20801257358446093,
+      "shared": [
+        {
+          "club": "Fulham",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Arsenal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Portugal",
+      "weight": 0.11180339887498948,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Scotland",
+      "weight": 0.25,
+      "shared": [
+        {
+          "club": "Napoli",
+          "count": 1
+        },
+        {
+          "club": "Aston Villa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Spain",
+      "weight": 0.11858541225631422,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Tunisia",
+      "weight": 0.0668153104781061,
+      "shared": [
+        {
+          "club": "Eintracht Frankfurt",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Turkey",
+      "weight": 0.03571428571428571,
+      "shared": [
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "United States",
+      "weight": 0.0625,
+      "shared": [
+        {
+          "club": "Fulham",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Belgium",
+      "to": "Uruguay",
+      "weight": 0.14708710135363803,
+      "shared": [
+        {
+          "club": "Napoli",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Bosnia and Herzegovina",
+      "to": "Colombia",
+      "weight": 0.07142857142857142,
+      "shared": [
+        {
+          "club": "Benfica",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Bosnia and Herzegovina",
+      "to": "Croatia",
+      "weight": 0.0668153104781061,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Bosnia and Herzegovina",
+      "to": "Ghana",
+      "weight": 0.08451542547285165,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Bosnia and Herzegovina",
+      "to": "Iraq",
+      "weight": 0.05976143046671968,
+      "shared": [
+        {
+          "club": "Viktoria Plze\u0148",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Bosnia and Herzegovina",
+      "to": "Ivory Coast",
+      "weight": 0.07412493166611013,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Bosnia and Herzegovina",
+      "to": "Morocco",
+      "weight": 0.06900655593423542,
+      "shared": [
+        {
+          "club": "VfB Stuttgart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Bosnia and Herzegovina",
+      "to": "Netherlands",
+      "weight": 0.05976143046671968,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Bosnia and Herzegovina",
+      "to": "United States",
+      "weight": 0.1336306209562122,
+      "shared": [
+        {
+          "club": "PSV",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Croatia",
+      "weight": 0.057353933467640436,
+      "shared": [
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "DR Congo",
+      "weight": 0.06917144638660747,
+      "shared": [
+        {
+          "club": "Newcastle United",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Ecuador",
+      "weight": 0.2703690352179376,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Flamengo",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "England",
+      "weight": 0.3003757045930553,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Manchester United",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "France",
+      "weight": 0.3746343246326776,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Germany",
+      "weight": 0.11633501014942217,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Liverpool",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Morocco",
+      "weight": 0.23693955110363693,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Manchester United",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Netherlands",
+      "weight": 0.3077935056255462,
+      "shared": [
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Liverpool",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Norway",
+      "weight": 0.06362847629757777,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Portugal",
+      "weight": 0.3590924232298039,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Manchester United",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Saudi Arabia",
+      "weight": 0.03382550457458691,
+      "shared": [
+        {
+          "club": "Al-Ittihad",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "South Korea",
+      "weight": 0.061313933948496574,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Spain",
+      "weight": 0.29019050004400465,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Turkey",
+      "weight": 0.22941573387056174,
+      "shared": [
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Brazil",
+      "to": "Uruguay",
+      "weight": 0.6298897789321866,
+      "shared": [
+        {
+          "club": "Manchester United",
+          "count": 1
+        },
+        {
+          "club": "Flamengo",
+          "count": 3
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Cape Verde",
+      "to": "Ivory Coast",
+      "weight": 0.09245003270420486,
+      "shared": [
+        {
+          "club": "Villarreal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Cape Verde",
+      "to": "Senegal",
+      "weight": 0.09622504486493763,
+      "shared": [
+        {
+          "club": "Villarreal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Croatia",
+      "weight": 0.0668153104781061,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Ecuador",
+      "weight": 0.06299407883487121,
+      "shared": [
+        {
+          "club": "River Plate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "England",
+      "weight": 0.058321184351980436,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "France",
+      "weight": 0.0545544725589981,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Germany",
+      "weight": 0.2710523708715754,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Ivory Coast",
+      "weight": 0.07412493166611013,
+      "shared": [
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Japan",
+      "weight": 0.22237479499833038,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Morocco",
+      "weight": 0.06900655593423542,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Norway",
+      "weight": 0.14824986333222026,
+      "shared": [
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Paraguay",
+      "weight": 0.2004459314343183,
+      "shared": [
+        {
+          "club": "Palmeiras",
+          "count": 1
+        },
+        {
+          "club": "Independiente",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Senegal",
+      "weight": 0.23145502494313788,
+      "shared": [
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        },
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "South Korea",
+      "weight": 0.07142857142857142,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Switzerland",
+      "weight": 0.06900655593423542,
+      "shared": [
+        {
+          "club": "Bologna",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "Turkey",
+      "weight": 0.11454053224818188,
+      "shared": [
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Colombia",
+      "to": "United States",
+      "weight": 0.1336306209562122,
+      "shared": [
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Czech Republic",
+      "weight": 0.12166606584807191,
+      "shared": [
+        {
+          "club": "TSG Hoffenheim",
+          "count": 1
+        },
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Ecuador",
+      "weight": 0.05892556509887897,
+      "shared": [
+        {
+          "club": "Milan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Egypt",
+      "weight": 0.07624928516630233,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "England",
+      "weight": 0.1636634176769943,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "France",
+      "weight": 0.10206207261596577,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Germany",
+      "weight": 0.21128856368212914,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Ghana",
+      "weight": 0.31622776601683794,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Iraq",
+      "weight": 0.05590169943749474,
+      "shared": [
+        {
+          "club": "Como",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Ivory Coast",
+      "weight": 0.06933752452815364,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Japan",
+      "weight": 0.1386750490563073,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Ajax",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Mexico",
+      "weight": 0.05892556509887897,
+      "shared": [
+        {
+          "club": "Milan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Morocco",
+      "weight": 0.12909944487358055,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Netherlands",
+      "weight": 0.22360679774997896,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Norway",
+      "weight": 0.20801257358446093,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Torino",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Portugal",
+      "weight": 0.16770509831248423,
+      "shared": [
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Scotland",
+      "weight": 0.0625,
+      "shared": [
+        {
+          "club": "Torino",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Senegal",
+      "weight": 0.07216878364870323,
+      "shared": [
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "South Korea",
+      "weight": 0.0668153104781061,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Spain",
+      "weight": 0.07905694150420949,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Croatia",
+      "to": "Turkey",
+      "weight": 0.21428571428571427,
+      "shared": [
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Cura\u00e7ao",
+      "to": "New Zealand",
+      "weight": 0.05892556509887897,
+      "shared": [
+        {
+          "club": "PEC Zwolle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Czech Republic",
+      "to": "Ghana",
+      "weight": 0.051298917604257706,
+      "shared": [
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Czech Republic",
+      "to": "Mexico",
+      "weight": 0.07647191129018727,
+      "shared": [
+        {
+          "club": "Wolverhampton Wanderers",
+          "count": 1
+        },
+        {
+          "club": "West Ham United",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Czech Republic",
+      "to": "Senegal",
+      "weight": 0.046829290579084706,
+      "shared": [
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Czech Republic",
+      "to": "South Korea",
+      "weight": 0.043355498476206004,
+      "shared": [
+        {
+          "club": "Wolverhampton Wanderers",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "DR Congo",
+      "to": "Ivory Coast",
+      "weight": 0.08362420100070908,
+      "shared": [
+        {
+          "club": "Sunderland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "DR Congo",
+      "to": "Japan",
+      "weight": 0.08362420100070908,
+      "shared": [
+        {
+          "club": "Genk",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "DR Congo",
+      "to": "Paraguay",
+      "weight": 0.07537783614444091,
+      "shared": [
+        {
+          "club": "Sunderland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "DR Congo",
+      "to": "Switzerland",
+      "weight": 0.0778498944161523,
+      "shared": [
+        {
+          "club": "Sunderland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "England",
+      "weight": 0.2057377999494559,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Chelsea",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "France",
+      "weight": 0.14433756729740646,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "Germany",
+      "weight": 0.03984095364447979,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "Mexico",
+      "weight": 0.055555555555555566,
+      "shared": [
+        {
+          "club": "Milan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "Morocco",
+      "weight": 0.06085806194501846,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "Norway",
+      "weight": 0.06537204504606135,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "Paraguay",
+      "weight": 0.11785113019775793,
+      "shared": [
+        {
+          "club": "Atl\u00e9tico Mineiro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "Portugal",
+      "weight": 0.10540925533894598,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "Senegal",
+      "weight": 0.06804138174397717,
+      "shared": [
+        {
+          "club": "Chelsea",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "South Africa",
+      "weight": 0.031497039417435604,
+      "shared": [
+        {
+          "club": "Union Saint-Gilloise",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "South Korea",
+      "weight": 0.06299407883487121,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "Spain",
+      "weight": 0.07453559924999299,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ecuador",
+      "to": "Uruguay",
+      "weight": 0.23112508176051216,
+      "shared": [
+        {
+          "club": "Internacional",
+          "count": 1
+        },
+        {
+          "club": "Flamengo",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "England",
+      "weight": 0.03327791628198609,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "Ghana",
+      "weight": 0.09644856443408242,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Nordsj\u00e6lland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "Morocco",
+      "weight": 0.2756247308353552,
+      "shared": [
+        {
+          "club": "Al Ain",
+          "count": 1
+        },
+        {
+          "club": "Al Ahly",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "Netherlands",
+      "weight": 0.034099716973523674,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "Norway",
+      "weight": 0.04229549344378136,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "Paraguay",
+      "weight": 0.038124642583151166,
+      "shared": [
+        {
+          "club": "Al Ain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "Portugal",
+      "weight": 0.034099716973523674,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "Qatar",
+      "weight": 0.04822428221704121,
+      "shared": [
+        {
+          "club": "Al-Wakrah",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "Spain",
+      "weight": 0.024112141108520606,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Egypt",
+      "to": "Tunisia",
+      "weight": 0.04075695729696112,
+      "shared": [
+        {
+          "club": "Nice",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "France",
+      "weight": 0.445435403187374,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Aston Villa",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Germany",
+      "weight": 0.3319700011034929,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Ghana",
+      "weight": 0.06900655593423542,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Japan",
+      "weight": 0.060522753266880246,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Morocco",
+      "weight": 0.1690308509457033,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Manchester United",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Netherlands",
+      "weight": 0.14638501094227999,
+      "shared": [
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Norway",
+      "weight": 0.30261376633440124,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Brentford",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Portugal",
+      "weight": 0.2439750182371333,
+      "shared": [
+        {
+          "club": "Manchester United",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Scotland",
+      "weight": 0.1636634176769943,
+      "shared": [
+        {
+          "club": "Everton",
+          "count": 1
+        },
+        {
+          "club": "Aston Villa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Senegal",
+      "weight": 0.12598815766974242,
+      "shared": [
+        {
+          "club": "Everton",
+          "count": 1
+        },
+        {
+          "club": "Chelsea",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "South Korea",
+      "weight": 0.058321184351980436,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Spain",
+      "weight": 0.3450327796711771,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Turkey",
+      "weight": 0.031173984319427486,
+      "shared": [
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "England",
+      "to": "Uruguay",
+      "weight": 0.08559209850218259,
+      "shared": [
+        {
+          "club": "Manchester United",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Germany",
+      "weight": 0.3105295017040594,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Japan",
+      "weight": 0.056613851707229795,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Morocco",
+      "weight": 0.4216370213557839,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        },
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Netherlands",
+      "weight": 0.22821773229381923,
+      "shared": [
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Norway",
+      "weight": 0.056613851707229795,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Portugal",
+      "weight": 0.5477225575051661,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 2
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "AC Milan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Saudi Arabia",
+      "weight": 0.1504823163572115,
+      "shared": [
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Scotland",
+      "weight": 0.051031036307982884,
+      "shared": [
+        {
+          "club": "Aston Villa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Senegal",
+      "weight": 0.05892556509887897,
+      "shared": [
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "South Korea",
+      "weight": 0.1636634176769943,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Spain",
+      "weight": 0.3550234734023466,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Switzerland",
+      "weight": 0.05270462766947299,
+      "shared": [
+        {
+          "club": "Inter Milan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Turkey",
+      "weight": 0.2916059217599022,
+      "shared": [
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Inter Milan",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "United States",
+      "weight": 0.10206207261596577,
+      "shared": [
+        {
+          "club": "AC Milan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "France",
+      "to": "Uruguay",
+      "weight": 0.16012815380508716,
+      "shared": [
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Ivory Coast",
+      "weight": 0.04688072309384954,
+      "shared": [
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Japan",
+      "weight": 0.2344036154692477,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Morocco",
+      "weight": 0.26186146828319085,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Netherlands",
+      "weight": 0.1889822365046136,
+      "shared": [
+        {
+          "club": "Brighton & Hove Albion",
+          "count": 1
+        },
+        {
+          "club": "Liverpool",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Norway",
+      "weight": 0.18752289237539815,
+      "shared": [
+        {
+          "club": "RB Leipzig",
+          "count": 1
+        },
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Borussia Dortmund",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Paraguay",
+      "weight": 0.042257712736425826,
+      "shared": [
+        {
+          "club": "Brighton & Hove Albion",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Portugal",
+      "weight": 0.03779644730092272,
+      "shared": [
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Senegal",
+      "weight": 0.048795003647426664,
+      "shared": [
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "South Korea",
+      "weight": 0.22587697572631282,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Spain",
+      "weight": 0.05345224838248487,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Turkey",
+      "weight": 0.09658905768325904,
+      "shared": [
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Germany",
+      "to": "Uruguay",
+      "weight": 0.033149677206589796,
+      "shared": [
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ghana",
+      "to": "Ivory Coast",
+      "weight": 0.08770580193070293,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ghana",
+      "to": "Jordan",
+      "weight": 0.07453559924999299,
+      "shared": [
+        {
+          "club": "Rennes",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ghana",
+      "to": "Netherlands",
+      "weight": 0.14142135623730948,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ghana",
+      "to": "Norway",
+      "weight": 0.08770580193070293,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ghana",
+      "to": "Portugal",
+      "weight": 0.07071067811865474,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ghana",
+      "to": "Senegal",
+      "weight": 0.09128709291752768,
+      "shared": [
+        {
+          "club": "Lyon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ghana",
+      "to": "Spain",
+      "weight": 0.19999999999999996,
+      "shared": [
+        {
+          "club": "Athletic Bilbao",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ghana",
+      "to": "Switzerland",
+      "weight": 0.0816496580927726,
+      "shared": [
+        {
+          "club": "Rennes",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Haiti",
+      "to": "Iran",
+      "weight": 0.0668153104781061,
+      "shared": [
+        {
+          "club": "Esteghlal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Haiti",
+      "to": "Ivory Coast",
+      "weight": 0.07412493166611013,
+      "shared": [
+        {
+          "club": "\u00c7aykur Rizespor",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Iran",
+      "to": "Morocco",
+      "weight": 0.06454972243679027,
+      "shared": [
+        {
+          "club": "Olympiacos",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Iraq",
+      "to": "Jordan",
+      "weight": 0.10540925533894598,
+      "shared": [
+        {
+          "club": "Al-Karma",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "Morocco",
+      "weight": 0.1432229748078866,
+      "shared": [
+        {
+          "club": "Roma",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "Netherlands",
+      "weight": 0.12403473458920847,
+      "shared": [
+        {
+          "club": "Atalanta",
+          "count": 1
+        },
+        {
+          "club": "Roma",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "New Zealand",
+      "weight": 0.1386750490563073,
+      "shared": [
+        {
+          "club": "Nottingham Forest",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "Panama",
+      "weight": 0.0716114874039433,
+      "shared": [
+        {
+          "club": "Be\u015fikta\u015f",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "Paraguay",
+      "weight": 0.1386750490563073,
+      "shared": [
+        {
+          "club": "Sunderland",
+          "count": 1
+        },
+        {
+          "club": "Strasbourg",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "Portugal",
+      "weight": 0.062017367294604234,
+      "shared": [
+        {
+          "club": "Porto",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "Senegal",
+      "weight": 0.16012815380508716,
+      "shared": [
+        {
+          "club": "Villarreal",
+          "count": 1
+        },
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "South Korea",
+      "weight": 0.07412493166611013,
+      "shared": [
+        {
+          "club": "Be\u015fikta\u015f",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "Switzerland",
+      "weight": 0.1432229748078866,
+      "shared": [
+        {
+          "club": "Sunderland",
+          "count": 1
+        },
+        {
+          "club": "Nottingham Forest",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Ivory Coast",
+      "to": "Turkey",
+      "weight": 0.15848577035006547,
+      "shared": [
+        {
+          "club": "Be\u015fikta\u015f",
+          "count": 1
+        },
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Japan",
+      "to": "Morocco",
+      "weight": 0.0716114874039433,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Japan",
+      "to": "Norway",
+      "weight": 0.07692307692307693,
+      "shared": [
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Japan",
+      "to": "Portugal",
+      "weight": 0.062017367294604234,
+      "shared": [
+        {
+          "club": "Real Sociedad",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Japan",
+      "to": "Scotland",
+      "weight": 0.1386750490563073,
+      "shared": [
+        {
+          "club": "Celtic",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Japan",
+      "to": "Senegal",
+      "weight": 0.08006407690254358,
+      "shared": [
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Japan",
+      "to": "South Korea",
+      "weight": 0.22237479499833038,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Feyenoord",
+          "count": 1
+        },
+        {
+          "club": "FC Tokyo",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Japan",
+      "to": "Spain",
+      "weight": 0.043852900965351466,
+      "shared": [
+        {
+          "club": "Real Sociedad",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Japan",
+      "to": "Tunisia",
+      "weight": 0.07412493166611013,
+      "shared": [
+        {
+          "club": "Eintracht Frankfurt",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Japan",
+      "to": "United States",
+      "weight": 0.1386750490563073,
+      "shared": [
+        {
+          "club": "Leeds United",
+          "count": 1
+        },
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Jordan",
+      "to": "Switzerland",
+      "weight": 0.06085806194501846,
+      "shared": [
+        {
+          "club": "Rennes",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Mexico",
+      "to": "Norway",
+      "weight": 0.06537204504606135,
+      "shared": [
+        {
+          "club": "Genoa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Mexico",
+      "to": "South Korea",
+      "weight": 0.06299407883487121,
+      "shared": [
+        {
+          "club": "Wolverhampton Wanderers",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Mexico",
+      "to": "Uruguay",
+      "weight": 0.04622501635210243,
+      "shared": [
+        {
+          "club": "Am\u00e9rica",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Morocco",
+      "to": "Netherlands",
+      "weight": 0.23094010767585027,
+      "shared": [
+        {
+          "club": "Roma",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Morocco",
+      "to": "Paraguay",
+      "weight": 0.06454972243679027,
+      "shared": [
+        {
+          "club": "Al Ain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Morocco",
+      "to": "Portugal",
+      "weight": 0.404145188432738,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Manchester United",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Morocco",
+      "to": "Saudi Arabia",
+      "weight": 0.19034674690672024,
+      "shared": [
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Morocco",
+      "to": "Senegal",
+      "weight": 0.07453559924999299,
+      "shared": [
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Morocco",
+      "to": "South Korea",
+      "weight": 0.13801311186847084,
+      "shared": [
+        {
+          "club": "Bayern Munich",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Morocco",
+      "to": "Spain",
+      "weight": 0.0816496580927726,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Morocco",
+      "to": "Turkey",
+      "weight": 0.2581988897471611,
+      "shared": [
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Morocco",
+      "to": "Uruguay",
+      "weight": 0.15191090506255,
+      "shared": [
+        {
+          "club": "Manchester United",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Netherlands",
+      "to": "Norway",
+      "weight": 0.062017367294604234,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Netherlands",
+      "to": "Paraguay",
+      "weight": 0.05590169943749474,
+      "shared": [
+        {
+          "club": "Brighton & Hove Albion",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Netherlands",
+      "to": "Portugal",
+      "weight": 0.19999999999999996,
+      "shared": [
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Netherlands",
+      "to": "Scotland",
+      "weight": 0.05590169943749474,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Netherlands",
+      "to": "Senegal",
+      "weight": 0.06454972243679027,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Netherlands",
+      "to": "Spain",
+      "weight": 0.2474873734152916,
+      "shared": [
+        {
+          "club": "Barcelona",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Netherlands",
+      "to": "Turkey",
+      "weight": 0.22360679774997896,
+      "shared": [
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Netherlands",
+      "to": "United States",
+      "weight": 0.05590169943749474,
+      "shared": [
+        {
+          "club": "Juventus",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Netherlands",
+      "to": "Uruguay",
+      "weight": 0.08770580193070293,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "New Zealand",
+      "to": "Switzerland",
+      "weight": 0.12909944487358055,
+      "shared": [
+        {
+          "club": "Nottingham Forest",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Norway",
+      "to": "Paraguay",
+      "weight": 0.06933752452815364,
+      "shared": [
+        {
+          "club": "Cremonese",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Norway",
+      "to": "Portugal",
+      "weight": 0.062017367294604234,
+      "shared": [
+        {
+          "club": "Manchester City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Norway",
+      "to": "Scotland",
+      "weight": 0.06933752452815364,
+      "shared": [
+        {
+          "club": "Torino",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Norway",
+      "to": "Senegal",
+      "weight": 0.08006407690254358,
+      "shared": [
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Norway",
+      "to": "Spain",
+      "weight": 0.1315587028960544,
+      "shared": [
+        {
+          "club": "Arsenal",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Atl\u00e9tico Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Norway",
+      "to": "United States",
+      "weight": 0.1386750490563073,
+      "shared": [
+        {
+          "club": "Fulham",
+          "count": 1
+        },
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Norway",
+      "to": "Uruguay",
+      "weight": 0.05439282932204212,
+      "shared": [
+        {
+          "club": "Atl\u00e9tico Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Panama",
+      "to": "South Korea",
+      "weight": 0.06900655593423542,
+      "shared": [
+        {
+          "club": "Be\u015fikta\u015f",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Panama",
+      "to": "Turkey",
+      "weight": 0.03688555567816587,
+      "shared": [
+        {
+          "club": "Be\u015fikta\u015f",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Paraguay",
+      "to": "Switzerland",
+      "weight": 0.06454972243679027,
+      "shared": [
+        {
+          "club": "Sunderland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Portugal",
+      "to": "Saudi Arabia",
+      "weight": 0.42859730770726157,
+      "shared": [
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        },
+        {
+          "club": "Al-Nassr",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "from": "Portugal",
+      "to": "Senegal",
+      "weight": 0.19364916731037085,
+      "shared": [
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        },
+        {
+          "club": "Al-Nassr",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Portugal",
+      "to": "South Korea",
+      "weight": 0.11952286093343936,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Portugal",
+      "to": "Spain",
+      "weight": 0.35355339059327373,
+      "shared": [
+        {
+          "club": "Real Sociedad",
+          "count": 1
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Manchester City",
+          "count": 1
+        },
+        {
+          "club": "Barcelona",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Portugal",
+      "to": "Turkey",
+      "weight": 0.22360679774997896,
+      "shared": [
+        {
+          "club": "Fenerbah\u00e7e",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Portugal",
+      "to": "United States",
+      "weight": 0.05590169943749474,
+      "shared": [
+        {
+          "club": "AC Milan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Portugal",
+      "to": "Uruguay",
+      "weight": 0.17541160386140586,
+      "shared": [
+        {
+          "club": "Manchester United",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Saudi Arabia",
+      "to": "Senegal",
+      "weight": 0.4256282653793743,
+      "shared": [
+        {
+          "club": "Al-Ahli",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        },
+        {
+          "club": "Al-Nassr",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Saudi Arabia",
+      "to": "Turkey",
+      "weight": 0.02106313659355673,
+      "shared": [
+        {
+          "club": "Al-Ahli",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Saudi Arabia",
+      "to": "Uruguay",
+      "weight": 0.14457873299156004,
+      "shared": [
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Scotland",
+      "to": "Senegal",
+      "weight": 0.14433756729740646,
+      "shared": [
+        {
+          "club": "Everton",
+          "count": 1
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Scotland",
+      "to": "Tunisia",
+      "weight": 0.0668153104781061,
+      "shared": [
+        {
+          "club": "Norwich City",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Scotland",
+      "to": "United States",
+      "weight": 0.0625,
+      "shared": [
+        {
+          "club": "Bournemouth",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Scotland",
+      "to": "Uruguay",
+      "weight": 0.09805806756909202,
+      "shared": [
+        {
+          "club": "Napoli",
+          "count": 1
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Senegal",
+      "to": "Turkey",
+      "weight": 0.1649572197684645,
+      "shared": [
+        {
+          "club": "Al-Ahli",
+          "count": 1
+        },
+        {
+          "club": "Galatasaray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Senegal",
+      "to": "United States",
+      "weight": 0.07216878364870323,
+      "shared": [
+        {
+          "club": "Crystal Palace",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Senegal",
+      "to": "Uruguay",
+      "weight": 0.11322770341445959,
+      "shared": [
+        {
+          "club": "Tottenham Hotspur",
+          "count": 1
+        },
+        {
+          "club": "Al-Hilal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "South Africa",
+      "to": "Switzerland",
+      "weight": 0.03450327796711771,
+      "shared": [
+        {
+          "club": "Burnley",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "South Africa",
+      "to": "Tunisia",
+      "weight": 0.03571428571428571,
+      "shared": [
+        {
+          "club": "Burnley",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "South Korea",
+      "to": "Spain",
+      "weight": 0.042257712736425826,
+      "shared": [
+        {
+          "club": "Paris Saint-Germain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "South Korea",
+      "to": "Switzerland",
+      "weight": 0.06900655593423542,
+      "shared": [
+        {
+          "club": "Mainz 05",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "South Korea",
+      "to": "Turkey",
+      "weight": 0.038180177416060626,
+      "shared": [
+        {
+          "club": "Be\u015fikta\u015f",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Spain",
+      "to": "Turkey",
+      "weight": 0.02258769757263128,
+      "shared": [
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Spain",
+      "to": "Uruguay",
+      "weight": 0.062017367294604234,
+      "shared": [
+        {
+          "club": "Atl\u00e9tico Madrid",
+          "count": 1
+        },
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Switzerland",
+      "to": "Tunisia",
+      "weight": 0.13801311186847084,
+      "shared": [
+        {
+          "club": "Burnley",
+          "count": 1
+        },
+        {
+          "club": "FC Augsburg",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Switzerland",
+      "to": "Turkey",
+      "weight": 0.03688555567816587,
+      "shared": [
+        {
+          "club": "Inter Milan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Switzerland",
+      "to": "United States",
+      "weight": 0.06454972243679027,
+      "shared": [
+        {
+          "club": "Borussia M\u00f6nchengladbach",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "from": "Turkey",
+      "to": "Uruguay",
+      "weight": 0.028016590734026292,
+      "shared": [
+        {
+          "club": "Real Madrid",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

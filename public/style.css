@@ -1,0 +1,203 @@
+:root {
+    --bg-color: #0a0a0a;
+    --panel-bg: rgba(20, 20, 20, 0.7);
+    --text-primary: #ffffff;
+    --text-secondary: #aaaaaa;
+    --accent: #3b82f6;
+    --accent-hover: #60a5fa;
+    --border: rgba(255, 255, 255, 0.1);
+    
+    /* Neon cluster colors mapping to Vis.js groups */
+    --cluster-0: #ff3366;
+    --cluster-1: #33ccff;
+    --cluster-2: #33ff99;
+    --cluster-3: #ffcc00;
+    --cluster-4: #cc66ff;
+    --cluster-5: #ff9933;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    overflow: hidden;
+}
+
+#app-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 350px;
+    background: var(--panel-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    z-index: 10;
+    box-shadow: 4px 0 24px rgba(0,0,0,0.5);
+    overflow-y: auto;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    background: linear-gradient(90deg, #fff, #888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.control-group {
+    margin-bottom: 24px;
+}
+
+.control-group label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* Toggles */
+.toggle-container {
+    display: flex;
+    background: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 4px;
+    border: 1px solid var(--border);
+}
+
+.toggle-container button {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.toggle-container button.active {
+    background: var(--accent);
+    color: white;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* Slider */
+input[type=range] {
+    width: 100%;
+    accent-color: var(--accent);
+    cursor: pointer;
+}
+
+/* Details Panel */
+#details-panel {
+    margin-top: 32px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    transition: opacity 0.3s ease;
+}
+
+#details-panel.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#detail-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--accent-hover);
+}
+
+.club-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 14px;
+}
+.club-item:last-child {
+    border-bottom: none;
+}
+
+.club-count {
+    background: rgba(255,255,255,0.1);
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.shared-edge-info {
+    margin-top: 16px;
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+/* Network */
+#network-container {
+    flex: 1;
+    position: relative;
+    background: radial-gradient(circle at center, #1a1a2e 0%, #0a0a0a 100%);
+}
+
+#mynetwork {
+    width: 100%;
+    height: 100%;
+}
+
+/* Vis.js tooltip styling override */
+div.vis-tooltip {
+    background-color: rgba(20, 20, 20, 0.9) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 8px !important;
+    color: white !important;
+    font-family: 'Inter', sans-serif !important;
+    padding: 12px !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    #app-container {
+        flex-direction: column;
+    }
+    #sidebar {
+        width: 100%;
+        height: auto;
+        max-height: 40vh;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+    #network-container {
+        height: 60vh;
+    }
+}
