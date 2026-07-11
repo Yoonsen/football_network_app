@@ -230,15 +230,13 @@ function drawNetwork() {
 
     network = new vis.Network(domElements.container, data, options);
 
-    // Event: Hover Node
-    network.on("hoverNode", function (params) {
-        const hoveredNodeId = params.node;
-        const hoveredNode = nodesDataSet.get(hoveredNodeId);
+    function handleNodeFocus(nodeId) {
+        const hoveredNode = nodesDataSet.get(nodeId);
+        if (!hoveredNode) return;
         
-        // Find cluster/group
         const clusterId = hoveredNode.group;
 
-        // Dim everything except this cluster
+        // Dim alt utenom denne klyngen
         const updateArray = [];
         nodesDataSet.forEach((node) => {
             if (node.group !== clusterId) {
@@ -249,7 +247,7 @@ function drawNetwork() {
         });
         nodesDataSet.update(updateArray);
 
-        // Dim all edges except those completely within the cluster
+        // Dim kanter
         const edgeUpdates = [];
         edgesDataSet.forEach((edge) => {
             const fromNode = nodesDataSet.get(edge.from);
@@ -263,9 +261,40 @@ function drawNetwork() {
         edgesDataSet.update(edgeUpdates);
 
         showNodeDetails(hoveredNode);
+    }
+
+    // Event: Hover Node (Desktop)
+    network.on("hoverNode", function (params) {
+        handleNodeFocus(params.node);
     });
 
-    // Event: Blur Node
+    // Event: Click/Select Node (Mobile/Touch)
+    network.on("selectNode", function (params) {
+        if (params.nodes.length > 0) {
+            handleNodeFocus(params.nodes[0]);
+        }
+    });
+
+    // Event: Click/Select Edge (Mobile/Touch)
+    network.on("selectEdge", function (params) {
+        if (params.nodes.length === 0 && params.edges.length > 0) {
+            const edge = edgesDataSet.get(params.edges[0]);
+            showEdgeDetails(edge);
+        }
+    });
+
+    network.on("deselectNode", function (params) {
+        resetStyles();
+        hideDetails();
+    });
+
+    network.on("deselectEdge", function (params) {
+        if (params.nodes.length === 0) {
+            hideDetails();
+        }
+    });
+
+    // Event: Blur Node (Desktop)
     network.on("blurNode", function (params) {
         resetStyles();
         hideDetails();
