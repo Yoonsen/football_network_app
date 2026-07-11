@@ -262,12 +262,28 @@ div.vis-tooltip {
     #sidebar {
         width: 100%;
         height: auto;
-        max-height: 45vh;
+        max-height: 50vh;
         border-right: none;
         border-bottom: 1px solid var(--border);
+        padding: 12px;
+        -webkit-overflow-scrolling: touch;
     }
     #network-container {
-        height: 55vh;
+        height: 50vh;
+    }
+    
+    .header h1 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    .header p {
+        display: none; /* Skjul p-tag for å spare plass */
+    }
+    .control-group {
+        margin-bottom: 12px;
+    }
+    .tabs-header {
+        margin-bottom: 12px;
     }
     
     /* Make details panel a floating popup on mobile */
@@ -283,7 +299,8 @@ div.vis-tooltip {
         box-shadow: 0 10px 40px rgba(0,0,0,0.8);
         border: 1px solid var(--accent);
         margin-top: 0;
-        max-height: 40vh;
+        max-height: 35vh;
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
 }
